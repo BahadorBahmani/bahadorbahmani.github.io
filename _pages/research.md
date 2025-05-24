@@ -11,7 +11,7 @@ author_profile: true
 Neural Chaos is a neural-network-based formulation inspired by Polynomial Chaos Expansion (PCE) for modeling stochastic processes involving high-dimensional and statistically dependent inputs. While PCE is widely used in engineering applications, it may require special treatment when handling dependent random variables and can face scalability challenges due to its reliance on polynomial basis functions and tensor product structures. Neural Chaos, grounded in the same spectral representation formalism, replaces polynomial bases with neural-network–parameterized functions learned directly from data. Built on the RINO framework, it constructs basis functions that are orthogonal with respect to the underlying probability measure, enabling efficient spectral representations for uncertainty quantification in stochastic systems.
 </div>
 
-**Relevant Publications:**
+Relevant Publications:
 - [Neural Chaos: A Spectral Stochastic Neural Operator](https://arxiv.org/abs/2502.11835)\ B. Bahmani, Y. Kevrekidis, and M. Sheilds, arxiv.
 
 
@@ -28,6 +28,9 @@ Polynomial Chaos Expansion (PCE) is a well-established method for modeling stoch
 <div style="text-align: justify;">
 Most operator learning methods require input or output function spaces to be discretized on the same grid, limiting their applicability when data is defined on varying grids across realizations, such as in multiscale simulations. Our method, Resolution-Independent Neural Operator (RINO), addresses this by introducing a dictionary learning algorithm that extracts orthogonal, smooth basis functions from irregularly discretized data. These functions serve to project arbitrary discretized fields onto a finite-dimensional embedding space in which operator learning is conducted. This approach is interpretable from classical approximation theory and provides a natural error metric for detecting out-of-distribution samples.
 </div>
+
+Relevant Publications:
+- [A Resolution Independent Neural Operator](https://arxiv.org/abs/2407.13010), B. Bahmani, et al., arxiv.
 
 <p align="center">
   <img src="/images/operator_rom/summary_methods_website.png" alt="opr-learn-rom" width="800px" />
