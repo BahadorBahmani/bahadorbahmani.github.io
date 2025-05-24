@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,54 +10,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computational Science, Columbia University, 2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* March 2024 - ongoing: Postdoctral Research Fellow
+  * Johns Hopkins University
+  * Research topic: Neural Operators and Uncertainty Quantification
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sep. 2019 - Dec. 2023: Graduate Research Assitant
+  * Columbia University
+  * Research topic: Manifold Learning, Geometric Learning, Material Modeling
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2022 - Aug. 2022: Machine Learning Research Intern
+  * Nebulon Inc. (acquired by Nvidia)
+  * Research topic: Multivariate Time-series Anamoly Detection, Unsupervised Machine Learning
+
+* May 2019 - Aug. 2019: Computational Geometry/Mechanics Intern
+  * Carbon Inc.
+  * Research topic: Inverse Geometric Design for Impact Loading Conditions
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Programming: Python, C/C++, Shell, SQL, Git, AWS
+* Machine Learning: PyTorch, PyTorch-Geometric, TensorFlow 1&2
+* Computational Science: FEniCS, Gmsh, ParaView

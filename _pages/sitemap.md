@@ -7,31 +7,61 @@ author_profile: true
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+{%
+comment
+%}
+A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+{%
+endcomment
+%}
 
+{%
+comment
+%}
 <h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
+{% for page in site.pages %}
+  {% unless page.sitemap == false %}
+    {% include archive-single.html %}
+  {% endunless %}
 {% endfor %}
+{%
+endcomment
+%}
 
+{%
+comment
+%}
 <h2>Posts</h2>
 {% for post in site.posts %}
-  {% include archive-single.html %}
+  {% unless post.sitemap == false %}
+    {% include archive-single.html item=post %}
+  {% endunless %}
 {% endfor %}
+{%
+endcomment
+%}
 
 {% capture written_label %}'None'{% endcapture %}
 
+{%
+comment
+%}
 {% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
+  {% assign visible_docs = "" | split: "" %}
   {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
+    {% for doc in collection.docs %}
+      {% unless doc.sitemap == false %}
+        {% assign visible_docs = visible_docs | push: doc %}
+      {% endunless %}
+    {% endfor %}
+    {% if visible_docs.size > 0 %}
+      <h2>{{ collection.label }}</h2>
+      {% for doc in visible_docs %}
+        {% include archive-single.html item=doc %}
+      {% endfor %}
+    {% endif %}
   {% endunless %}
 {% endfor %}
-{% endfor %}
+{%
+endcomment
+%}
