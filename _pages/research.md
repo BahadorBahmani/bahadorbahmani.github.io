@@ -11,6 +11,10 @@ author_profile: true
 Neural Chaos is a neural-network-based formulation inspired by Polynomial Chaos Expansion (PCE) for modeling stochastic processes involving high-dimensional and statistically dependent inputs. While PCE is widely used in engineering applications, it may require special treatment when handling dependent random variables and can face scalability challenges due to its reliance on polynomial basis functions and tensor product structures. Neural Chaos, grounded in the same spectral representation formalism, replaces polynomial bases with neural-network–parameterized functions learned directly from data. Built on the RINO framework, it constructs basis functions that are orthogonal with respect to the underlying probability measure, enabling efficient spectral representations for uncertainty quantification in stochastic systems.
 </div>
 
+**Relevant Publications:**
+- [Neural Chaos: A Spectral Approach for Dependent Random Variables](https://arxiv.org/abs/2502.11835), *B. Bahmani**, Y. Kevrekidis, and M. Sheilds, arxiv*.
+
+
 <p align="center">
   <img src="/images/UQ/neural_chaos.png" alt="uq" width="800px" />
 </p>
