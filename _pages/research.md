@@ -12,7 +12,7 @@ Neural Chaos is a neural-network-based formulation inspired by Polynomial Chaos 
 </div>
 
 Relevant Publications:
-- [Neural Chaos: A Spectral Stochastic Neural Operator](https://arxiv.org/abs/2502.11835)\ B. Bahmani, Y. Kevrekidis, and M. Sheilds, arxiv.
+- [Neural Chaos: A Spectral Stochastic Neural Operator](https://arxiv.org/abs/2502.11835), B. Bahmani, et al., *arxiv*.
 
 
 <p align="center">
@@ -30,7 +30,7 @@ Most operator learning methods require input or output function spaces to be dis
 </div>
 
 Relevant Publications:
-- [A Resolution Independent Neural Operator](https://arxiv.org/abs/2407.13010), B. Bahmani, et al., arxiv.
+- [A Resolution Independent Neural Operator](https://arxiv.org/abs/2407.13010), B. Bahmani, et al., *arxiv*.
 
 <p align="center">
   <img src="/images/operator_rom/summary_methods_website.png" alt="opr-learn-rom" width="800px" />
@@ -42,6 +42,10 @@ Relevant Publications:
 Traditional constitutive models in mechanics rely on handcrafted equations rooted in phenomenological assumptions. While recent approaches using neural networks have enabled learning such models directly from data—experimental or computational—they often result in black-box or, at best, gray-box formulations, making it difficult to interpret how inputs (e.g., strains) are mapped to outputs (e.g., stress or strain energy). In this research, we introduce a scalable and interpretable framework that combines neural networks and symbolic regression for material model discovery. The key idea is a two-step decomposition of high-dimensional constitutive functions. First, we learn a low-rank representation by expressing the target function as an additive combination of univariate basis functions, each parameterized by a neural network. This step allows easy integration of physical constraints via differentiable programming. Second, we generate synthetic data from the learned basis functions and apply symbolic regression to extract concise, human-readable equations. The final constitutive model is assembled from these symbolic components, yielding interpretable and thermodynamically consistent formulations that reflect the kind of equations an expert mechanician might derive. We have demonstrated the effectiveness of this neural-symbolic scheme in discovering material models for a range of complex materials, including soft materials under large deformations, plastic yield surfaces of porous metals, granular materials, and others. 
 </div>
 
+Relevant Publications:
+- [Physics-constrained Symbolic Model Discovery for Polyconvex Incompressible Hyperelastic Material](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.7473), B. Bahmani and W. Sun, *International Journal for Numerical Methods in Engineering*.
+- [Discovering Interpretable Elastoplasticity Models via the Neural Polynomial Method enabled Symbolic Regression](https://www.sciencedirect.com/science/article/pii/S0045782524000835), B. Bahmani, et al., *Computer Methods in Applied Mechanics and Engineering*.
+
 <p align="center">
   <img src="/images/interp_ai/hybrid.png" alt="interp_ai" width="800px" />
 </p>
@@ -52,6 +56,11 @@ Traditional constitutive models in mechanics rely on handcrafted equations roote
 Model-free distance-minimization methods provide a data-driven alternative to classical constitutive modeling by directly incorporating stress-strain data into field equations—without assuming an explicit stress-strain relationship. In this formulation, the governing equations become optimization problems that minimize the distance between material data and balance laws. Earlier approaches relied on energy-based Euclidean distances in phase space, which can misrepresent the geometry of nonlinear materials, especially with sparse or noisy data. To address this, we propose a new formulaiton that embeds the data into a latent space specifically constructed to admit a Euclidean structure. This enables the optimization to be performed via linear projection, reducing computational cost. The framework remains hybrid: local data searches can still be conducted within the latent space when needed. To better preserve the material data geometry, we design an isometric embedding that maintains local distances between data points before and after projection. This manifold-embedded approach offers a flexible continuum between model-based and model-free paradigms, adapting to the quality and availability of data. We extend the method to coupled multiphysics problems such as poroelasticity, introducing an additive distance metric over the joint phase space. This allows selective modeling—using data-driven approaches for some fields and traditional models for others. Finally, to ensure scalability, we develop a KD-tree–based spectral search algorithm tailored to the model-free setting, achieving orders-of-magnitude improvements in data retrieval efficiency.
 </div>
 
+Relevant Publications:
+- [Manifold embedding data-driven mechanics](https://www.sciencedirect.com/science/article/pii/S0022509622001259), B. Bahmani and W. Sun, *Journal of Mechanics and Physics of Solids*.
+- [Distance-preserving manifold de-noising for data-driven mechanics](https://www.sciencedirect.com/science/article/pii/S0045782522008131), B. Bahmani and W. Sun, *Computer Methods in Applied Mechanics and Engineering*.
+- [A kd-tree-accelerated hybrid data-driven/model-based approach for poroelasticity problems with multi-fidelity multi-physics data](https://www.sciencedirect.com/science/article/pii/S004578252100205X), B Bahmani and W. Sun, *Computer Methods in Applied Mechanics and Engineering*.
+
 <p align="center">
   <img src="/images/model-free/model-free.png" alt="interp_ai" width="800px" />
 </p>
@@ -59,6 +68,12 @@ Model-free distance-minimization methods provide a data-driven alternative to cl
 ## Stochastic Multiscale Fracture Modeling with Discontinuous Galerkin Method
 
 To be added
+
+Relevant Publications:
+- [Automated homogenization-based fracture analysis: Effects of SVE size and boundary condition](https://www.sciencedirect.com/science/article/pii/S0045782518305644), B. Bahmani, et al., *Computer Methods in Applied Mechanics and Engineering*.
+- [Asynchronous spacetime discontinuous Galerkin formulation for a hyperbolic time-delay bulk damage model](https://ascelibrary.org/doi/10.1061/%28ASCE%29EM.1943-7889.0001656), B. Bahmani and R. Abedi, *Journal of Engineering Mechanics*.
+- [A stochastic bulk damage model based on Mohr-Coulomb failure criterion for dynamic rock fracture](https://www.mdpi.com/2076-3417/9/5/830), B. Bahmani, et al., *Applied Sciences*.
+- [Voronoi tessellation based statistical volume element characterization for use in fracture modeling](https://www.sciencedirect.com/science/article/pii/S0045782518301051), K. Acton, et al., *Computer Methods in Applied Mechanics and Engineering*.
 
 <p align="center">
   <img src="/images/DG/dg-damage-fracture.png" alt="dg" width="800px" />
@@ -70,6 +85,9 @@ To be added
 <div style="text-align: justify;">
 The eXtended Finite Element Method (XFEM) is a powerful numerical technique for solving partial differential equations with discontinuous solutions. By allowing the computational mesh to remain independent of discontinuities or sharp gradients, XFEM significantly simplifies mesh generation and interface tracking compared to standard FEM approaches. This makes it particularly effective for simulating fractured domains and contact mechanisms, where interfaces are implicitly represented using level set functions. In this work, we present a new XFEM-based formulation to model contact, bonding, and debonding phenomena across fracture surfaces under fully coupled thermo-mechanical loading. Specifically, we introduce an efficient algorithm to capture nonlinear interactions between mechanical and thermal fields at fracture interfaces. A key feature of our approach is the incorporation of pressure-dependent heat conduction across crack surfaces, enabling more accurate simulation of heat transfer in fractured materials.
 </div>
+
+Relevant Publications:
+- [Application of an enriched FEM technique in thermo-mechanical contact problems](https://link.springer.com/article/10.1007/s00466-018-1555-z), A. Khoei and B. Bahmani, *Computational Mechanics*.
 
 <p align="center">
   <img src="/images/xfem/xfem-tm-contact.png" alt="interp_ai" width="800px" />
