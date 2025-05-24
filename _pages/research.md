@@ -67,7 +67,9 @@ Relevant Publications:
 
 ## Stochastic Multiscale Fracture Modeling with Discontinuous Galerkin Method
 
+<div style="text-align: justify;">
 To study the effect of material randomness, heterogeneity, and anisotropy on failure patterns in materials with complex microstructures subjected to high strain-rate loading, it is crucial to accurately model both fracture/damage phenomena and shock wave propagation—particularly in heterogeneous media. In this project, we develop methods based on the discontinuous Galerkin (DG) formulation, which, due to its fully discrete nature, is well-suited for problems involving discontinuities and wave propagation. While interfacial fracture models may offer a more accurate representation of fracture processes, they are computationally more demanding than continuum damage models. To improve computational efficiency—especially important for uncertainty propagation—we introduce a novel fully hyperbolic damage formulation within the spacetime discontinuous Galerkin framework. This formulation preserves the hyperbolic character of wave propagation phenomena, ensuring finite wave speeds. Furthermore, we propose a stochastic homogenization scheme that upscales relevant quantities of interest from microscale to macroscale in a statistically consistent manner.
+</div>
 
 Relevant Publications:
 - [Automated homogenization-based fracture analysis: Effects of SVE size and boundary condition](https://www.sciencedirect.com/science/article/pii/S0045782518305644), B. Bahmani, et al., *Computer Methods in Applied Mechanics and Engineering*.
