@@ -12,7 +12,7 @@ Neural Chaos is a neural-network-based formulation inspired by Polynomial Chaos 
 </div>
 
 **Relevant Publications:**
-- [Neural Chaos: A Spectral Approach for Dependent Random Variables](https://arxiv.org/abs/2502.11835), *B. Bahmani**, Y. Kevrekidis, and M. Sheilds, arxiv*.
+- [Neural Chaos: A Spectral Stochastic Neural Operator](https://arxiv.org/abs/2502.11835)\ B. Bahmani, Y. Kevrekidis, and M. Sheilds, arxiv.
 
 
 <p align="center">
