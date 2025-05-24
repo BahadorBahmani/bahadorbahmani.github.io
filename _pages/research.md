@@ -22,7 +22,7 @@ Polynomial Chaos Expansion (PCE) is a well-established method for modeling stoch
 ## Operator Learning and Reduced Order Modeling
 
 <div style="text-align: justify;">
-Most operator learning methods require input and output function spaces to be discretized on the same grid, limiting their applicability when data is defined on varying grids across realizations, such as in multiscale simulations. Our method, Resolution-Independent Neural Operator (RINO), addresses this by introducing a dictionary learning algorithm that extracts orthogonal, smooth basis functions from irregularly discretized data. These functions are used to project arbitrary discretizations onto a finite-dimensional embedding space, where the operator learning is performed. The approach is interpretable from classical approximation theory and provides a natural error metric for detecting out-of-distribution samples.
+Most operator learning methods require input or output function spaces to be discretized on the same grid, limiting their applicability when data is defined on varying grids across realizations, such as in multiscale simulations. Our method, Resolution-Independent Neural Operator (RINO), addresses this by introducing a dictionary learning algorithm that extracts orthogonal, smooth basis functions from irregularly discretized data. These functions serve to project arbitrary discretized fields onto a finite-dimensional embedding space in which operator learning is conducted. This approach is interpretable from classical approximation theory and provides a natural error metric for detecting out-of-distribution samples.
 </div>
 
 <p align="center">
