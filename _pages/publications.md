@@ -7,7 +7,7 @@ author_profile: true
 2025
 ----
 1. [**Neural Chaos: A Spectral Stochastic Neural Operator**](https://arxiv.org/abs/2502.11835)\
-   **B. Bahmani**, Y. Kevrekidis, and M. Sheilds, arxiv.
+   **B. Bahmani**, et al., arxiv.
 
 2024
 ----
