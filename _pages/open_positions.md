@@ -9,7 +9,7 @@ author_profile: true
 I am actively recruiting highly motivated and creative students and researchers to join my group. 
 We are an interdisciplinary team working at the intersection of computational solid mechanics, machine learning, and uncertainty quantification. 
 If you are passionate about developing novel computational tools and conducting high-impact research, 
-I encourage you to reach out to me at: <u><a href="mailto:bahador.bahmani@northwestern.edu">bahador[dot]bahmani[at]northwestern[dot]edu</a></u>
+I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwestern.edu">bahador[dot]bahmani[at]northwestern[dot]edu</a>
 </div>
 
 ---
