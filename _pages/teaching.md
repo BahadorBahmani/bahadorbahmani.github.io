@@ -25,6 +25,10 @@ sitemap: false
 - **Delivery:** In-person
 - **Course Description:** see the link
 
+<p align="center">
+  <img src="/images/teaching/paradigms.png" alt="uq" width="800px" />
+</p>
+
 <!--
 **Topics Covered:**
 - ...
