@@ -15,7 +15,7 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 ---
 
 <details>
-<summary><strong>## Postdoctoral Researchers</strong></summary>
+<summary><strong>Postdoctoral Researchers</strong></summary>
 
 <p>Currently we have an opening.</p>
 
@@ -51,6 +51,29 @@ If interested, please send:
 
 ---
 -->
+
+<details>
+<summary><strong>Ph.D. Students</strong></summary>
+
+<div style="text-align: justify;">
+Students interested in pursuing a Ph.D. in Mechanical Engineering or Theoretical and Applied Mechanics at Northwestern University, 
+starting in Fall 2026, are encouraged to reach out between October and December 2025.
+</div>
+
+<br />
+
+<strong>Please include the following in your email:</strong>
+<ul>
+  <li>CV</li>
+  <li>Transcripts (unofficial)</li>
+  <li>A short statement of research interests</li>
+  <li>English proficiency scores (if applicable)</li>
+</ul>
+
+</details>
+
+
+<!--
 ## Ph.D. Students
 
 <div style="text-align: justify;">
@@ -66,7 +89,21 @@ Please include the following in your email:
 - English proficiency scores (if applicable).
 
 ---
+-->
 
+<details>
+<summary><strong>Undergraduate and Master's Students</strong></summary>
+
+<div style="text-align: justify;">
+If you are a current student at Northwestern and are interested in gaining research experience in computational mechanics and/or machine learning, please feel free to reach out. 
+We have several ongoing projects that you can contribute to, and we are also open to co-designing a new research project that excites both you and our group. 
+Prior research experience is not required—enthusiasm and commitment are far more important. 
+You are welcome to stop by my office to discuss opportunities, or you can email me a short paragraph about your research interests along with your CV or resume.
+</div>
+
+</details>
+
+<!--
 ## Undergraduate and Master's Students
 
 <div style="text-align: justify;">
@@ -75,3 +112,4 @@ We have several ongoing projects that you can contribute to, and we are also ope
 Prior research experience is not required—enthusiasm and commitment are far more important. 
 You are welcome to stop by my office to discuss opportunities, or you can email me a short paragraph about your research interests along with your CV or resume.
 </div>
+-->
