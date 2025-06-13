@@ -14,6 +14,28 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 
 ---
 
+<details>
+<summary><strong>## Postdoctoral Researchers</strong></summary>
+
+<p>Currently we have an opening.</p>
+
+<p>Desired Background:</p>
+<ul>
+  <li>Ph.D. in mechanical engineering, applied mathematics, computer science, or related areas.</li>
+  <li>Strong track record in computational modeling, scientific machine learning, uncertainty quantification or high-performance computing.</li>
+  <li>Excellent publication record and communication skills.</li>
+</ul>
+
+<p>If interested, please send:</p>
+<ul>
+  <li>CV</li>
+  <li>One or two representative publications</li>
+  <li>A brief statement of research interests</li>
+</ul>
+
+</details>
+
+<!--
 ## Postdoctoral Researchers
 Currently we have an oppening.
 
@@ -28,6 +50,7 @@ If interested, please send:
 - A brief statement of research interests.
 
 ---
+-->
 ## Ph.D. Students
 
 <div style="text-align: justify;">
