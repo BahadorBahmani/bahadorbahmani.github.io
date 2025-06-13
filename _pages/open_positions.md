@@ -22,7 +22,7 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 <p>Desired Background:</p>
 <ul>
   <li>Ph.D. in mechanical engineering, applied mathematics, computer science, or related areas.</li>
-  <li>Strong track record in computational modeling, scientific machine learning, uncertainty quantification or high-performance computing.</li>
+  <li>Strong track record in computational modeling, machine learning, uncertainty quantification or high-performance computing.</li>
   <li>Excellent publication record and communication skills.</li>
 </ul>
 
