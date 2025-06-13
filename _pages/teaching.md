@@ -10,8 +10,7 @@ sitemap: false
 
 
 #### **ME 327/CEE 327: Finite Elements Methods in Mechanics**
-
-**Quarter:** Fall 2025  
+- **Quarter:** Fall 2025
 - **Level:** Undergraduate / Graduate
 - **Prerequisites:** Basic computer programming (in Python) and basic linear algebra.
 - **Tools & Software:** Python (NumPy, scikit-learn), Abaqus, Jupyter Notebooks
