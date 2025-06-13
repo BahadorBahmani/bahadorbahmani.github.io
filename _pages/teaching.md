@@ -5,7 +5,6 @@ layout: archive
 author_profile: true
 sitemap: false
 ---
-
 ### Courses at Northwestern University
 
 #### **ME 327/CEE 327: Finite Elements Methods in Mechanics**
