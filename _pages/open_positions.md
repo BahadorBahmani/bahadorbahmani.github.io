@@ -31,6 +31,7 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
   <li>CV</li>
   <li>One or two representative publications</li>
   <li>A brief statement of research interests</li>
+  <li>Transcripts (unofficial)</li>
 </ul>
 
 </details>
