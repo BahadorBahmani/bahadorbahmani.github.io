@@ -6,20 +6,18 @@ author_profile: true
 sitemap: false
 ---
 
-To be added
-
-<!--
 ## Finite Element Methods (FEM) – Fall Quarter
 
 **Institution:** Northwestern University  
 **Quarter:** Fall 2025  
-**Level:** Graduate / Advanced Undergraduate  
+**Level:** Undergraduate / Graduate
+**Prerequisites:** Basic computer programming (in Python) and basic linear algebra.
+**Tools & Software:** Python (NumPy, scikit-learn), Abaqus, Jupyter Notebooks
 **Format:** Lectures + Hands-on Labs  
 **Delivery:** In-person
+**Course Description:** This course provides a practical introduction to the Finite Element Method (FEM), with an emphasis on hands-on implementation using Python. It covers the basic theoretical concepts necessary to understand and apply FEM, without going into extensive mathematical detail. Students will learn how to build FEM solvers with minimal external dependencies and how to use a general-purpose framework (Abaqus). The course focuses on solving elliptic partial differential equations, with applications in heat conduction, linear elasticity, and potential flow, covering a broad range of topics relevant to students of civil and mechanical engineering.
 
-**Course Description:**  
-This course introduces the fundamental principles and computational implementation of the finite element method (FEM) for solving boundary value problems in solid mechanics. Topics include variational formulation, element types, assembly procedures, and solution strategies, with an emphasis on both theoretical understanding and practical applications.
-
+<!--
 **Topics Covered:**
 - ...
 
