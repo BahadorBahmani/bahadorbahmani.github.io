@@ -30,7 +30,7 @@ Most operator learning methods require input or output function spaces to be dis
 </div>
 
 Relevant Publications:
-- [A Resolution Independent Neural Operator](https://arxiv.org/abs/2407.13010), B. Bahmani, et al., *arxiv*.
+- [A Resolution Independent Neural Operator](https://www.sciencedirect.com/science/article/abs/pii/S0045782525003858), B. Bahmani, et al., *Computer Methods in Applied Mechanics and Engineering*.
 
 <p align="center">
   <img src="/images/operator_rom/summary_methods_website.png" alt="opr-learn-rom" width="800px" />
