@@ -8,16 +8,16 @@ author_profile: true
 ----
 1. [**Neural Chaos: A Spectral Stochastic Neural Operator**](https://arxiv.org/abs/2502.11835)\
    **B. Bahmani**, et al., arxiv.
+2. [**A Resolution Independent Neural Operator**](https://www.sciencedirect.com/science/article/abs/pii/S0045782525003858)\
+   **B. Bahmani**, et al., *Computer Methods in Applied Mechanics and Engineering*.
 
 2024
 ----
-1. [**A Resolution Independent Neural Operator**](https://arxiv.org/abs/2407.13010)\
-   **B. Bahmani**, et al., arxiv.
-2. [**Physics-constrained Symbolic Model Discovery for Polyconvex Incompressible Hyperelastic Material**](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.7473)\
+1. [**Physics-constrained Symbolic Model Discovery for Polyconvex Incompressible Hyperelastic Material**](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.7473)\
    **B. Bahmani** and W. Sun, *International Journal for Numerical Methods in Engineering*.
-3. [**Discovering Interpretable Elastoplasticity Models via the Neural Polynomial Method enabled Symbolic Regression**](https://www.sciencedirect.com/science/article/pii/S0045782524000835)\
+2. [**Discovering Interpretable Elastoplasticity Models via the Neural Polynomial Method enabled Symbolic Regression**](https://www.sciencedirect.com/science/article/pii/S0045782524000835)\
    **B. Bahmani**, et al., *Computer Methods in Applied Mechanics and Engineering*.
-4. [**A Review on Data-Driven Constitutive Laws for Solids**](https://link.springer.com/article/10.1007/s11831-024-10196-2)\
+3. [**A Review on Data-Driven Constitutive Laws for Solids**](https://link.springer.com/article/10.1007/s11831-024-10196-2)\
    J. Fuhg, G. Padmanabha, N. Bouklas, **B. Bahmani**, et al., *Archives of Computational Methods in Engineering*.
 
 2023
