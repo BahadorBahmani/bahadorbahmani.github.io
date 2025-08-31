@@ -6,7 +6,7 @@ author_profile: true
 ---
 2025
 ----
-1. [**Neural Chaos: A Spectral Stochastic Neural Operator**](https://arxiv.org/abs/2502.11835)\
+1. [**Neural Chaos: A Spectral Stochastic Neural Operator**](https://doi.org/10.1016/j.jcp.2025.114233)\
    **B. Bahmani**, et al., *Journal of Computational Physics*.
 2. [**A Resolution Independent Neural Operator**](https://www.sciencedirect.com/science/article/abs/pii/S0045782525003858)\
    **B. Bahmani**, et al., *Computer Methods in Applied Mechanics and Engineering*.
