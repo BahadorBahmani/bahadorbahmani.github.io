@@ -17,7 +17,7 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 <details>
 <summary><strong>Postdoctoral Researchers</strong></summary>
 
-<p>Currently we have an opening.</p>
+<p>[Currently we do not have any openings.]</p>
 
 <p>Desired Background:</p>
 <ul>
