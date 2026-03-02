@@ -38,7 +38,7 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 
 <!--
 ## Postdoctoral Researchers
-Currently we have an oppening.
+[Currently we do not have any oppenings.]
 
 Desired Background:
 - Ph.D. in mechanical engineering, applied mathematics, computer science, or related areas.
