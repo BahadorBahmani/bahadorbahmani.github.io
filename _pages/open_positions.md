@@ -61,19 +61,7 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 <div style="text-align: justify;">
 If you are a current student at Northwestern and are interested in gaining research experience in computational mechanics and/or machine learning, please feel free to reach out. 
 We have several ongoing projects that you can contribute to, and we are also open to co-designing a new research project that excites both you and our group. 
-Prior research experience is not required—enthusiasm and commitment are far more important. 
 You are welcome to stop by my office to discuss opportunities, or you can email me a short paragraph about your research interests along with your CV or resume.
 </div>
 
 </details>
-
-<!--
-## Undergraduate and Master's Students
-
-<div style="text-align: justify;">
-If you are a current student at Northwestern and are interested in gaining research experience in computational mechanics and/or machine learning, please feel free to reach out. 
-We have several ongoing projects that you can contribute to, and we are also open to co-designing a new research project that excites both you and our group. 
-Prior research experience is not required—enthusiasm and commitment are far more important. 
-You are welcome to stop by my office to discuss opportunities, or you can email me a short paragraph about your research interests along with your CV or resume.
-</div>
--->
