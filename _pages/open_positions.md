@@ -45,11 +45,12 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 <summary><strong>Ph.D. Students</strong></summary>
 
 <div style="text-align: justify;">
-Students interested in pursuing a Ph.D. in Mechanical Engineering or Theoretical and Applied Mechanics at Northwestern University, 
-starting in Fall 2026, are encouraged to reach out between October and December 2025.
+<ul>
+  <li>I am always actively looking for motivated Ph.D. students to join the group.</li>
+  <li>If you are interested, you are encouraged to contact me between October and December.</li>
+  <li>You can also apply directly to the Mechanical Engineering (ME) or Theoretical and Applied Mechanics (TAM) program at Northwestern and list me as a potential advisor.</li>
+</ul>
 </div>
-
-<br />
 
 <strong>Please include the following in your email:</strong>
 <ul>
@@ -60,25 +61,6 @@ starting in Fall 2026, are encouraged to reach out between October and December 
 </ul>
 
 </details>
-
-
-<!--
-## Ph.D. Students
-
-<div style="text-align: justify;">
-Students interested in pursuing a Ph.D. in Mechanical Engineering or Theoretical and Applied Mechanics at Northwestern University, 
-starting in Fall 2026, are encouraged to reach out between October and December 2025.
-</div>
-
-Please include the following in your email:
-
-- CV,
-- Transcripts (unofficial),
-- A short statement of research interests,
-- English proficiency scores (if applicable).
-
----
--->
 
 <details>
 <summary><strong>Undergraduate and Master's Students</strong></summary>
