@@ -18,15 +18,12 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 <summary><strong>Postdoctoral Researchers</strong></summary>
 
 <div style="text-align: justify;">
-I am looking for a postdoctoral researcher with a strong background in scientific machine learning.
-I am also glad to support strong candidates applying for external fellowships, including Northwestern's
-<a href="https://trienens-institute.northwestern.edu/research/ai4energy/">AI4Energy</a> program.
-Fellowship applications take time to prepare well, so if you are considering one, please reach out early
-rather than close to the deadline. Before contacting me, please read the <a href="/research/">Research</a>
-page to judge whether your interests are a genuine fit for the group's direction.
+<ul>
+  <li>I am looking for a postdoctoral researcher with a strong background in scientific machine learning.</li>
+  <li>I am also glad to support strong candidates applying for external fellowships, including Northwestern's <a href="https://trienens-institute.northwestern.edu/research/ai4energy/">AI4Energy</a> program. Fellowship applications take time to prepare well, so if you are considering one, please reach out early rather than close to the deadline.</li>
+  <li>Before contacting me, please read the <a href="/research/">Research</a> page to judge whether your interests are a genuine fit for the group's direction.</li>
+</ul>
 </div>
-
-<br />
 
 <strong>Desired Background:</strong>
 <ul>
