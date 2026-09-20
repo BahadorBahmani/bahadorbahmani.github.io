@@ -17,41 +17,33 @@ I encourage you to reach out to me at: <a href="mailto:bahador.bahmani@northwest
 <details>
 <summary><strong>Postdoctoral Researchers</strong></summary>
 
-<p>[Currently we do not have any openings.]</p>
+<div style="text-align: justify;">
+I am looking for a postdoctoral researcher with a strong background in scientific machine learning.
+I am also glad to support strong candidates applying for external fellowships, including Northwestern's
+<a href="https://trienens-institute.northwestern.edu/research/ai4energy/">AI4Energy</a> program.
+Fellowship applications take time to prepare well, so if you are considering one, please reach out early
+rather than close to the deadline. Before contacting me, please read the <a href="/research/">Research</a>
+page to judge whether your interests are a genuine fit for the group's direction.
+</div>
 
-<p>Desired Background:</p>
+<br />
+
+<strong>Desired Background:</strong>
 <ul>
   <li>Ph.D. in mechanical engineering, applied mathematics, computer science, or related areas.</li>
-  <li>Strong track record in computational modeling, machine learning, uncertainty quantification or high-performance computing.</li>
+  <li>Strong track record in computational modeling, scientific machine learning, uncertainty quantification or high-performance computing.</li>
   <li>Excellent publication record and communication skills.</li>
 </ul>
 
-<p>If interested, please send:</p>
+<strong>When you reach out, please include:</strong>
 <ul>
+  <li>One representative paper</li>
   <li>CV</li>
-  <li>One or two representative publications</li>
-  <li>A brief statement of research interests</li>
-  <li>Transcripts (unofficial)</li>
+  <li>A list of people who can write you letters of recommendation</li>
+  <li>One paragraph describing your research goals</li>
 </ul>
 
 </details>
-
-<!--
-## Postdoctoral Researchers
-[Currently we do not have any oppenings.]
-
-Desired Background:
-- Ph.D. in mechanical engineering, applied mathematics, computer science, or related areas.
-- Strong track record in computational modeling, scientific machine learning, uncertainty quantification or high-performance computing.
-- Excellent publication record and communication skills.
-
-If interested, please send:
-- CV,
-- One or two representative publications,
-- A brief statement of research interests.
-
----
--->
 
 <details>
 <summary><strong>Ph.D. Students</strong></summary>
