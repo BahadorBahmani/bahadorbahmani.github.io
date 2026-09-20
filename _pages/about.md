@@ -12,7 +12,7 @@ redirect_from:
 
 <div style="text-align: justify;">
 <p>
-Since September 2025, I have been a tenure-track Assistant Professor of Mechanical Engineering at Northwestern University. My research focuses on making computational solid mechanics autonomous, reliable, and scalable. My group works at the intersection of computational mechanics, scientific machine learning, and uncertainty quantification, with a particular interest in physics-constrained AI/ML methods that are interpretable and firmly grounded in classical numerical analysis and mechanics.
+Since September 2025, I have been a tenure-track Assistant Professor of Mechanical Engineering at Northwestern University. My research focuses on making computational solid mechanics autonomous, reliable, and scalable. My group works at the intersection of computational mechanics, scientific machine learning, and uncertainty quantification, with a particular interest in physics-constrained AI/ML methods that are interpretable and firmly grounded in the principles of numerical analysis and mechanics.
 </p>
 <p>
 Prior to joining Northwestern, I was a Postdoctoral Research Fellow at the Hopkins Extreme Materials Institute at Johns Hopkins University, following the completion of my Ph.D. in Engineering Mechanics at Columbia University in 2024.
