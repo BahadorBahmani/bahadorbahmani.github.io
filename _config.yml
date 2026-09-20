@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Bahador Bahmani"
 title_separator          : "-"
 name                     : &name "Bahador Bahmani"
-description              : &description "personal description"
-#url                      : https://bbhm-90.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Bahador Bahmani, Assistant Professor of Mechanical Engineering at Northwestern University. Research at the intersection of computational solid mechanics and machine learning."
+url                      : "https://bahadorbahmani.github.io" # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-#repository               : "bbhm-90/bbhm-90.github.io"
+repository               : "BahadorBahmani/bahadorbahmani.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
