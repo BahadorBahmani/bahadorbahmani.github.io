@@ -4,12 +4,34 @@ title: "Papers"
 permalink: /publications/
 author_profile: true
 ---
+2027
+----
+1. [**Constitutive Priors for Inverse Design**](https://doi.org/10.1016/j.cma.2026.119345)\
+   J. Han and **B. Bahmani**, *Computer Methods in Applied Mechanics and Engineering*.
+
+2026
+----
+1. [**Conformal Quantile Regression for Neural Probabilistic Constitutive Modeling**](https://doi.org/10.1016/j.cma.2026.118981)\
+   **B. Bahmani**, *Computer Methods in Applied Mechanics and Engineering*.
+2. [**A Multimodal Conditional Mixture Model with Distribution-Level Physics Priors**](https://doi.org/10.1002/nme.70346)\
+   J. Han and **B. Bahmani**, *International Journal for Numerical Methods in Engineering*.
+3. [**A Multi-Fidelity Bayesian Neural Operator for Mechanics of Spinodal Metamaterial**](https://www.nature.com/articles/s41524-026-02112-y)\
+   P. You, H. Chen, **B. Bahmani**, and H. D. Espinosa, *npj Computational Materials*.
+4. [**Data-Driven Cohesive Zone Modeling within the Generalized Standard Materials Framework**](https://arxiv.org/abs/2609.13629)\
+   S. Hao, J. Han, and **B. Bahmani**, *arXiv preprint*.
+5. [**Neural Operator Representation of Granular Micromechanics-based Failure Envelope**](https://arxiv.org/abs/2604.19027)\
+   J. Han, P. Poorsolhjouy, and **B. Bahmani**, *arXiv preprint*.
+6. **Discretizations from Hell: Different Representations of the Same Dynamics**\
+   R. Chandar, H. Arbabi, **B. Bahmani**, et al., *AIChE Annual Meeting*.
+
 2025
 ----
 1. [**Neural Chaos: A Spectral Stochastic Neural Operator**](https://doi.org/10.1016/j.jcp.2025.114233)\
    **B. Bahmani**, et al., *Journal of Computational Physics*.
 2. [**A Resolution Independent Neural Operator**](https://www.sciencedirect.com/science/article/abs/pii/S0045782525003858)\
    **B. Bahmani**, et al., *Computer Methods in Applied Mechanics and Engineering*.
+3. [**A Physics-informed Multi-resolution Neural Operator**](https://arxiv.org/abs/2510.23810)\
+   S. Roy, **B. Bahmani**, et al., *arXiv preprint*.
 
 2024
 ----
@@ -41,7 +63,7 @@ author_profile: true
 1. [**A kd-tree-accelerated hybrid data-driven/model-based approach for poroelasticity problems with multi-fidelity multi-physics data**](https://www.sciencedirect.com/science/article/pii/S004578252100205X)\
    **B Bahmani** and W. Sun, *Computer Methods in Applied Mechanics and Engineering*.
 2. [**Training multi-objective/multi-task collocation physics-informed neural network with student-teachers transfer learnings**](https://arxiv.org/abs/2107.11496)\
-   **B Bahmani** and W. Sun, arxiv
+   **B Bahmani** and W. Sun, *arXiv preprint*.
 
 2019
 ----
