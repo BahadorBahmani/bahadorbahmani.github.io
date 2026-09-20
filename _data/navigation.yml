@@ -8,28 +8,11 @@ main:
   - title: "Research"
     url: /research/
 
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
   - title: "Publications"
     url: /publications/
 
   - title: "Teaching"
-    url: /teaching/  
+    url: /teaching/
 
   - title: "Open Positions"
     url: /open-positions/
-        
-  # - title: "Blog Posts"
-  #  url: /year-archive/
-    
-  # - title: "CV"
-  #  url: /cv/
-    
-    
-  # - title: "Guide"
-  #   url: /markdown/
