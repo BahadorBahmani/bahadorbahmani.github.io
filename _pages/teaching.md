@@ -3,7 +3,6 @@ title: "Teaching"
 permalink: /teaching/
 layout: archive
 author_profile: true
-sitemap: false
 ---
 ### Courses at Northwestern University
 

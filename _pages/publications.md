@@ -61,12 +61,6 @@ author_profile: true
 2. [**Application of an enriched FEM technique in thermo-mechanical contact problems**](https://link.springer.com/article/10.1007/s00466-018-1555-z)\
    A. Khoei and **B. Bahmani**, *Computational Mechanics*.
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if site.author.googlescholar %}
+You can also find my articles on <u><a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</u>
 {% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
