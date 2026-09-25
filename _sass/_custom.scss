@@ -18,3 +18,30 @@
     padding-right: 0;
   }
 }
+
+/*
+   One-line contact strip closing the homepage bio. Flex so it sits on a
+   single row on desktop and wraps cleanly on narrow screens instead of
+   overflowing.
+*/
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1.5em;
+  margin-top: 1.8em;
+  padding-top: 1.1em;
+  border-top: 1px solid #e5e9ec;
+  font-size: 0.9em;
+
+  a {
+    white-space: nowrap;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+
+  i {
+    margin-right: 0.4em;
+    color: #7a828b;
+  }
+}
