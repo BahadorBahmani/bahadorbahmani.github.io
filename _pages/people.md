@@ -93,7 +93,7 @@ layout: archive
 <div class="people-grid">
 
   <div class="person">
-    <div class="person-photo">SH</div>
+    <div class="person-photo"><img src="/images/people/sida-hao.jpg" alt="Sida Hao"></div>
     <span class="person-name">Sida Hao</span>
     <span class="person-detail">Ph.D., University of Texas at Austin</span>
     <span class="person-links">
@@ -109,7 +109,7 @@ layout: archive
 <div class="people-grid">
 
   <div class="person">
-    <div class="person-photo">JH</div>
+    <div class="person-photo"><img src="/images/people/jinkyo-han.jpg" alt="Jinkyo Han"></div>
     <span class="person-name">Jinkyo Han</span>
     <span class="person-detail">B.S., Seoul National University</span>
     <span class="person-links">
