@@ -1,3 +1,22 @@
 <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+
+<script>
+  /*
+     Send links that point off this site to a new tab, leaving internal
+     navigation in place so browsing the site does not pile up tabs.
+     Links with no hostname (mailto:, tel:, #fragments) are left alone.
+     rel="noopener noreferrer" blocks the opened page from reaching back
+     through window.opener.
+  */
+  document.addEventListener('DOMContentLoaded', function () {
+    var here = window.location.hostname;
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      if (link.hostname && link.hostname !== here) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
+</script>
+
 <!-- end custom footer snippets -->
