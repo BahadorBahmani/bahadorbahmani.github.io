@@ -52,6 +52,7 @@ author_profile: true
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 22%;
     display: block;
   }
   .person-name {
@@ -71,6 +72,18 @@ author_profile: true
     .person-photo { width: 104px; height: 104px; font-size: 1.6em; }
   }
 </style>
+
+## Principal Investigator
+
+<div class="people-grid">
+
+  <div class="person">
+    <div class="person-photo"><img src="/images/people/bahador-bahmani.jpg" alt="Bahador Bahmani"></div>
+    <span class="person-name">Bahador Bahmani</span>
+    <span class="person-detail">Assistant Professor of Mechanical Engineering</span>
+  </div>
+
+</div>
 
 ## Postdoctoral Researchers
 

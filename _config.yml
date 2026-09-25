@@ -21,7 +21,7 @@ repository               : "BahadorBahmani/bahadorbahmani.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Photo_Bahador.JPG"
+  avatar           : # sidebar photo removed; the portrait now lives on /people/
   name             : "Bahador Bahmani, Ph.D."
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor in ME"
