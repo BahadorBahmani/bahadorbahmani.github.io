@@ -118,7 +118,7 @@ layout: archive
   </div>
 
   <div class="person">
-    <div class="person-photo">AM</div>
+    <div class="person-photo"><img src="/images/people/antoine-moats.jpg" alt="Antoine Moats"></div>
     <span class="person-name">Antoine Moats</span>
     <span class="person-detail">B.S., University of Southern California</span>
     <span class="person-links">
