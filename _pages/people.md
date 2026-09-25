@@ -68,6 +68,20 @@ layout: archive
     margin-top: 0.25em;
     line-height: 1.35;
   }
+  .person-links {
+    display: block;
+    margin-top: 0.45em;
+    font-size: 1.05em;
+    line-height: 1;
+  }
+  .person-links a {
+    display: inline-block;
+    margin: 0 0.28em;
+    color: #8a9199;
+    text-decoration: none;
+  }
+  .person-links a:hover,
+  .person-links a:focus { color: #52adc8; }
   @media (max-width: 480px) {
     .people-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
     .person-photo { width: 104px; height: 104px; font-size: 1.6em; }
@@ -82,6 +96,10 @@ layout: archive
     <div class="person-photo">SH</div>
     <span class="person-name">Sida Hao</span>
     <span class="person-detail">Ph.D., University of Texas at Austin</span>
+    <span class="person-links">
+      <a href="https://scholar.google.com/citations?user=lKo5_VkAAAAJ&amp;hl=en" title="Google Scholar" aria-label="Sida Hao on Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      <a href="https://orcid.org/0000-0001-7264-1550" title="ORCID" aria-label="Sida Hao on ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+    </span>
   </div>
 
 </div>
@@ -94,12 +112,18 @@ layout: archive
     <div class="person-photo">JH</div>
     <span class="person-name">Jinkyo Han</span>
     <span class="person-detail">B.S., Seoul National University</span>
+    <span class="person-links">
+      <a href="https://orcid.org/0009-0004-5056-3132" title="ORCID" aria-label="Jinkyo Han on ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+    </span>
   </div>
 
   <div class="person">
     <div class="person-photo">AM</div>
     <span class="person-name">Antoine Moats</span>
     <span class="person-detail">B.S., University of Southern California</span>
+    <span class="person-links">
+      <a href="https://orcid.org/0009-0008-1434-7028" title="ORCID" aria-label="Antoine Moats on ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+    </span>
   </div>
 
   <div class="person">
