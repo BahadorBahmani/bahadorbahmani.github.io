@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Site-specific overrides (not part of the upstream theme)
+   ========================================================================== */
+
+/*
+   This site renders no author sidebar, so `.page` should not stay floated
+   into the 83%-wide right-hand column the theme reserves for it. Reclaim the
+   full width and cap it for line length.
+*/
+.page {
+  @include breakpoint($large) {
+    width: 100%;
+    max-width: 1000px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

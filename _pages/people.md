@@ -2,7 +2,6 @@
 title: "People"
 permalink: /people/
 layout: archive
-author_profile: true
 ---
 
 <!--
@@ -19,6 +18,12 @@ author_profile: true
          <div class="person-photo"><img src="/images/people/jinkyo-han.jpg" alt="Jinkyo Han"></div>
 
   Nothing else needs to change; the layout is the same either way.
+
+  CLICK-TO-EXPAND CONTACT DETAILS
+  -------------------------------
+  Wrapping a name in <details class="person-more"> makes it clickable and
+  reveals a contact list underneath (see the PI card). Names not wrapped this
+  way stay plain text, so no one gets a clickable name with nothing behind it.
 -->
 
 <style>
@@ -67,6 +72,32 @@ author_profile: true
     margin-top: 0.25em;
     line-height: 1.35;
   }
+  /* A person whose name is wrapped in <details> becomes click-to-expand. */
+  .person-more summary {
+    display: block;
+    cursor: pointer;
+    list-style: none;
+    outline-offset: 3px;
+  }
+  .person-more summary::-webkit-details-marker { display: none; }
+  .person-more summary::marker { content: ""; }
+  .person-more summary:hover .person-name { text-decoration: underline; }
+  .person-more .person-name::after {
+    content: " \25BE";
+    font-size: 0.8em;
+    color: #9aa2ab;
+  }
+  .person-more[open] .person-name::after { content: " \25B4"; }
+  .person-contact {
+    list-style: none;
+    margin: 0.75em 0 0;
+    padding: 0.75em 0 0;
+    border-top: 1px solid #e5e9ec;
+    font-size: 0.82em;
+    line-height: 1.7;
+    color: #6b7684;
+  }
+  .person-contact li { margin: 0; }
   @media (max-width: 480px) {
     .people-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
     .person-photo { width: 104px; height: 104px; font-size: 1.6em; }
@@ -79,8 +110,22 @@ author_profile: true
 
   <div class="person">
     <div class="person-photo"><img src="/images/people/bahador-bahmani.jpg" alt="Bahador Bahmani"></div>
-    <span class="person-name">Bahador Bahmani</span>
-    <span class="person-detail">Assistant Professor of Mechanical Engineering</span>
+    <details class="person-more">
+      <summary>
+        <span class="person-name">Bahador Bahmani</span>
+        <span class="person-detail">Assistant Professor of Mechanical Engineering</span>
+      </summary>
+      <ul class="person-contact">
+        <li>{{ site.author.employer }}</li>
+        <li>{{ site.author.office }}</li>
+        <li>{{ site.author.location }}</li>
+        <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+        <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
+        <li><a href="{{ site.author.orcid }}">ORCID</a></li>
+        <li><a href="{{ site.author.researchgate }}">ResearchGate</a></li>
+        <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a></li>
+      </ul>
+    </details>
   </div>
 
 </div>

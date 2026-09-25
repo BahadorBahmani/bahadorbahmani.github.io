@@ -4,7 +4,6 @@ permalink: /
 title: "About Me"
 description: "Bahador Bahmani, Assistant Professor of Mechanical Engineering at Northwestern University. Research at the intersection of computational mechanics, scientific machine learning, and uncertainty quantification."
 excerpt: "Assistant Professor of Mechanical Engineering, Northwestern University"
-author_profile: true
 redirect_from: 
   - /about/
   - /about.html

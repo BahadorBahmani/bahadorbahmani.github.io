@@ -2,7 +2,6 @@
 title: "Open Positions"
 permalink: /open-positions/
 layout: single
-author_profile: true
 ---
 
 <div style="text-align: justify;">
