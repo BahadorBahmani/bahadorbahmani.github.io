@@ -126,15 +126,6 @@ layout: archive
     </span>
   </div>
 
-  <div class="person">
-    <div class="person-photo"><img src="/images/people/kyrillos-bastawros.jpg" alt="Kyrillos Bastawros"></div>
-    <span class="person-name">Kyrillos Bastawros</span>
-    <span class="person-detail">B.S., California Institute of Technology</span>
-    <span class="person-links">
-      <a href="https://orcid.org/0009-0001-8340-2085" title="ORCID" aria-label="Kyrillos Bastawros on ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
-    </span>
-  </div>
-
 </div>
 
 <!--
