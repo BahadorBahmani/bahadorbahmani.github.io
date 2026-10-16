@@ -16,11 +16,13 @@ permalink: /publications/
    J. Han and **B. Bahmani**, *International Journal for Numerical Methods in Engineering*.
 3. [**A Multi-Fidelity Bayesian Neural Operator for Mechanics of Spinodal Metamaterial**](https://www.nature.com/articles/s41524-026-02112-y)\
    P. You, H. Chen, **B. Bahmani**, and H. D. Espinosa, *npj Computational Materials*.
-4. [**Data-Driven Cohesive Zone Modeling within the Generalized Standard Materials Framework**](https://arxiv.org/abs/2609.13629)\
+4. [**A Differentiable Framework for Inverse Identification of Heterogeneous Cohesive Laws**](https://www.researchgate.net/publication/416009195_A_Differentiable_Framework_for_Inverse_Identification_of_Heterogeneous_Cohesive_Laws)\
+   S. Hao, J. Han, and **B. Bahmani**, *Preprint*.
+5. [**Data-Driven Cohesive Zone Modeling within the Generalized Standard Materials Framework**](https://arxiv.org/abs/2609.13629)\
    S. Hao, J. Han, and **B. Bahmani**, *arXiv preprint*.
-5. [**Neural Operator Representation of Granular Micromechanics-based Failure Envelope**](https://arxiv.org/abs/2604.19027)\
+6. [**Neural Operator Representation of Granular Micromechanics-based Failure Envelope**](https://arxiv.org/abs/2604.19027)\
    J. Han, P. Poorsolhjouy, and **B. Bahmani**, *arXiv preprint*.
-6. **Discretizations from Hell: Different Representations of the Same Dynamics**\
+7. **Discretizations from Hell: Different Representations of the Same Dynamics**\
    R. Chandar, H. Arbabi, **B. Bahmani**, et al., *AIChE Annual Meeting*.
 
 2025
