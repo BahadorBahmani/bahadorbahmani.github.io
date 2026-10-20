@@ -7,7 +7,7 @@ layout: single
   figure come from that entry in _data/publications.yml, and the page body is
   the summary. `figure_caption` in the page front matter captions the figure,
   and an optional `animations` list (each with `src` and `caption`) is shown
-  below the summary.
+  below the summary under `animations_title` (default "Animations").
 {% endcomment %}
 {% assign pub = site.data.publications | where: "id", page.pub_id | first %}
 
@@ -36,7 +36,7 @@ layout: single
 </div>
 
 {% if page.animations %}
-<h2 class="pub-animations-title">Animations</h2>
+<h2 class="pub-animations-title">{{ page.animations_title | default: "Animations" }}</h2>
 {% for anim in page.animations %}
 <figure class="pub-figure">
   <img src="{{ anim.src | relative_url }}" alt="{{ anim.caption | escape }}" loading="lazy">
