@@ -1,0 +1,239 @@
+# Publications, rendered on /publications/ by _includes/publication.html.
+# Entries are grouped by `year` (newest year first, in the order they appear
+# here) and keep their order within a year.
+#
+# Fields
+#   id       (required) Slug; the detail page lives at /publications/<id>/
+#            (_pages/publications/<id>.md) and its figure at
+#            /images/publications/<id>.png.
+#   title    (required)
+#   authors  (required) Markdown; wrap the PI's name in ** ** to bold it.
+#   venue    (required) Shown in italics.
+#   year     (required)
+#   abbr     Short venue tag, shown on the thumbnail placeholder when there
+#            is no image (e.g. CMAME, arXiv).
+#   url      Main link for the paper; the title links here.
+#   image    Representative figure, e.g. /images/publications/neural-chaos.png
+#            (any aspect ratio; it is fitted into a 4:3 box without cropping).
+#   page     Detail page for the paper, e.g. /publications/neural-chaos/.
+#            When set, the thumbnail links here and a "Details" button shows.
+#            The page itself is a Markdown file in _pages/publications/ using
+#            `layout: publication` and `pub_id: <id>`; it holds only the
+#            summary, since the header comes from this file.
+#   pdf, arxiv, code
+#            Optional extra links, each shown as a button.
+
+- id: constitutive-priors-inverse-design
+  title: "Constitutive Priors for Inverse Design"
+  authors: "J. Han and **B. Bahmani**"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  abbr: "CMAME"
+  year: 2027
+  url: "https://doi.org/10.1016/j.cma.2026.119345"
+
+- id: conformal-quantile-regression
+  title: "Conformal Quantile Regression for Neural Probabilistic Constitutive Modeling"
+  authors: "**B. Bahmani**"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  abbr: "CMAME"
+  year: 2026
+  url: "https://doi.org/10.1016/j.cma.2026.118981"
+
+- id: multimodal-conditional-mixture
+  title: "A Multimodal Conditional Mixture Model with Distribution-Level Physics Priors"
+  authors: "J. Han and **B. Bahmani**"
+  venue: "International Journal for Numerical Methods in Engineering"
+  abbr: "IJNME"
+  year: 2026
+  url: "https://doi.org/10.1002/nme.70346"
+
+- id: multifidelity-bayesian-neural-operator
+  title: "A Multi-Fidelity Bayesian Neural Operator for Mechanics of Spinodal Metamaterial"
+  authors: "P. You, H. Chen, **B. Bahmani**, and H. D. Espinosa"
+  venue: "npj Computational Materials"
+  abbr: "npj CM"
+  year: 2026
+  url: "https://www.nature.com/articles/s41524-026-02112-y"
+
+- id: differentiable-heterogeneous-cohesive-laws
+  title: "A Differentiable Framework for Inverse Identification of Heterogeneous Cohesive Laws"
+  authors: "S. Hao, J. Han, and **B. Bahmani**"
+  venue: "Preprint"
+  abbr: "Preprint"
+  year: 2026
+  url: "https://www.researchgate.net/publication/416009195_A_Differentiable_Framework_for_Inverse_Identification_of_Heterogeneous_Cohesive_Laws"
+
+- id: data-driven-cohesive-zone-gsm
+  title: "Data-Driven Cohesive Zone Modeling within the Generalized Standard Materials Framework"
+  authors: "S. Hao, J. Han, and **B. Bahmani**"
+  venue: "arXiv preprint"
+  abbr: "arXiv"
+  year: 2026
+  url: "https://arxiv.org/abs/2609.13629"
+
+- id: neural-operator-failure-envelope
+  title: "Neural Operator Representation of Granular Micromechanics-based Failure Envelope"
+  authors: "J. Han, P. Poorsolhjouy, and **B. Bahmani**"
+  venue: "arXiv preprint"
+  abbr: "arXiv"
+  year: 2026
+  url: "https://arxiv.org/abs/2604.19027"
+
+- id: discretizations-from-hell
+  title: "Discretizations from Hell: Different Representations of the Same Dynamics"
+  authors: "R. Chandar, H. Arbabi, **B. Bahmani**, et al."
+  venue: "AIChE Annual Meeting"
+  abbr: "AIChE"
+  year: 2026
+
+- id: neural-chaos
+  title: "Neural Chaos: A Spectral Stochastic Neural Operator"
+  authors: "**B. Bahmani**, et al."
+  venue: "Journal of Computational Physics"
+  abbr: "JCP"
+  year: 2025
+  url: "https://doi.org/10.1016/j.jcp.2025.114233"
+
+- id: resolution-independent-neural-operator
+  title: "A Resolution Independent Neural Operator"
+  authors: "**B. Bahmani**, et al."
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  abbr: "CMAME"
+  year: 2025
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0045782525003858"
+
+- id: physics-informed-multiresolution-neural-operator
+  title: "A Physics-informed Multi-resolution Neural Operator"
+  authors: "S. Roy, **B. Bahmani**, et al."
+  venue: "arXiv preprint"
+  abbr: "arXiv"
+  year: 2025
+  url: "https://arxiv.org/abs/2510.23810"
+
+- id: polyconvex-symbolic-hyperelasticity
+  title: "Physics-constrained Symbolic Model Discovery for Polyconvex Incompressible Hyperelastic Material"
+  authors: "**B. Bahmani** and W. Sun"
+  venue: "International Journal for Numerical Methods in Engineering"
+  abbr: "IJNME"
+  year: 2024
+  url: "https://onlinelibrary.wiley.com/doi/full/10.1002/nme.7473"
+
+- id: neural-polynomial-elastoplasticity
+  title: "Discovering Interpretable Elastoplasticity Models via the Neural Polynomial Method enabled Symbolic Regression"
+  authors: "**B. Bahmani**, et al."
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  abbr: "CMAME"
+  year: 2024
+  url: "https://www.sciencedirect.com/science/article/pii/S0045782524000835"
+
+- id: review-data-driven-constitutive-laws
+  title: "A Review on Data-Driven Constitutive Laws for Solids"
+  authors: "J. Fuhg, G. Padmanabha, N. Bouklas, **B. Bahmani**, et al."
+  venue: "Archives of Computational Methods in Engineering"
+  abbr: "ACME"
+  year: 2024
+  url: "https://link.springer.com/article/10.1007/s11831-024-10196-2"
+
+- id: manifold-embedding-data-driven-mechanics
+  title: "Manifold embedding data-driven mechanics"
+  authors: "**B. Bahmani** and W. Sun"
+  venue: "Journal of Mechanics and Physics of Solids"
+  abbr: "JMPS"
+  year: 2023
+  url: "https://www.sciencedirect.com/science/article/pii/S0022509622001259"
+
+- id: distance-preserving-manifold-denoising
+  title: "Distance-preserving manifold de-noising for data-driven mechanics"
+  authors: "**B. Bahmani** and W. Sun"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  abbr: "CMAME"
+  year: 2023
+  url: "https://www.sciencedirect.com/science/article/pii/S0045782522008131"
+
+- id: equivariant-digital-rock-physics
+  title: "Equivariant geometric learning for digital rock physics: estimating formation factor and effective permeability tensors from Morse graph"
+  authors: "C. Cai, N. Vlassis, L. Magee, R. Ma, Z. Xiong, **B. Bahmani**, et al."
+  venue: "International Journal for Multiscale Computational Engineering"
+  abbr: "IJMCE"
+  year: 2023
+  url: "https://www.dl.begellhouse.com/journals/61fd1b191cf7e96f,1f61097b2b8038e0,755c1ea40d25b4c7.html"
+
+- id: causal-discovery-granular-materials
+  title: "Data-driven discovery of interpretable causal relations for deep learning material laws with uncertainty quantification"
+  authors: "X. Sun, **B. Bahmani**, et al."
+  venue: "Granular Matter"
+  abbr: "GM"
+  year: 2022
+  url: "https://link.springer.com/article/10.1007/s10035-021-01137-y"
+
+- id: gan-rl-porous-microstructures
+  title: "Synthesizing controlled microstructures of porous media using generative adversarial networks and reinforcement learning"
+  authors: "P. Nguyen, N. Vlassis, **B. Bahmani**, et al."
+  venue: "Scientific Reports"
+  abbr: "Sci. Rep."
+  year: 2022
+  url: "https://www.nature.com/articles/s41598-022-12845-7"
+
+- id: kd-tree-poroelasticity
+  title: "A kd-tree-accelerated hybrid data-driven/model-based approach for poroelasticity problems with multi-fidelity multi-physics data"
+  authors: "**B. Bahmani** and W. Sun"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  abbr: "CMAME"
+  year: 2021
+  url: "https://www.sciencedirect.com/science/article/pii/S004578252100205X"
+
+- id: multitask-pinn-transfer-learning
+  title: "Training multi-objective/multi-task collocation physics-informed neural network with student-teachers transfer learnings"
+  authors: "**B. Bahmani** and W. Sun"
+  venue: "arXiv preprint"
+  abbr: "arXiv"
+  year: 2021
+  url: "https://arxiv.org/abs/2107.11496"
+
+- id: sve-fracture-homogenization
+  title: "Automated homogenization-based fracture analysis: Effects of SVE size and boundary condition"
+  authors: "**B. Bahmani**, et al."
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  abbr: "CMAME"
+  year: 2019
+  url: "https://www.sciencedirect.com/science/article/pii/S0045782518305644"
+
+- id: spacetime-dg-bulk-damage
+  title: "Asynchronous spacetime discontinuous Galerkin formulation for a hyperbolic time-delay bulk damage model"
+  authors: "**B. Bahmani** and R. Abedi"
+  venue: "Journal of Engineering Mechanics"
+  abbr: "JEM"
+  year: 2019
+  url: "https://ascelibrary.org/doi/10.1061/%28ASCE%29EM.1943-7889.0001656"
+
+- id: stochastic-bulk-damage-rock
+  title: "A stochastic bulk damage model based on Mohr-Coulomb failure criterion for dynamic rock fracture"
+  authors: "**B. Bahmani**, et al."
+  venue: "Applied Sciences"
+  abbr: "Appl. Sci."
+  year: 2019
+  url: "https://www.mdpi.com/2076-3417/9/5/830"
+
+- id: volume-element-geometry-rve
+  title: "Effect of volume element geometry on convergence to a representative volume"
+  authors: "K. Acton, C. Sherod, **B. Bahmani**, and R. Abedi"
+  venue: "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part B: Mechanical Engineering"
+  abbr: "ASCE-ASME"
+  year: 2019
+  url: "https://asmedigitalcollection.asme.org/risk/article/5/3/030907/725714/Effect-of-Volume-Element-Geometry-on-Convergence"
+
+- id: voronoi-sve-fracture
+  title: "Voronoi tessellation based statistical volume element characterization for use in fracture modeling"
+  authors: "K. Acton, S. Baxter, **B. Bahmani**, P. Clarke, and R. Abedi"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  abbr: "CMAME"
+  year: 2018
+  url: "https://www.sciencedirect.com/science/article/pii/S0045782518301051"
+
+- id: enriched-fem-thermomechanical-contact
+  title: "Application of an enriched FEM technique in thermo-mechanical contact problems"
+  authors: "A. Khoei and **B. Bahmani**"
+  venue: "Computational Mechanics"
+  abbr: "Comput. Mech."
+  year: 2018
+  url: "https://link.springer.com/article/10.1007/s00466-018-1555-z"

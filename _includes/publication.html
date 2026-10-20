@@ -1,0 +1,31 @@
+{% comment %}
+  One publication entry. Expects `pub`, an item from _data/publications.yml.
+{% endcomment %}
+{% assign pub = include.pub %}
+<li class="pub">
+  <div class="pub-thumb">
+    {% if pub.page %}<a href="{{ pub.page | relative_url }}" aria-label="Details: {{ pub.title | escape }}">{% endif %}
+    {% if pub.image %}
+      <img src="{{ pub.image | relative_url }}" alt="{{ pub.title | escape }}" loading="lazy">
+    {% else %}
+      <span class="pub-abbr">{{ pub.abbr | default: pub.year }}</span>
+    {% endif %}
+    {% if pub.page %}</a>{% endif %}
+  </div>
+  <div class="pub-body">
+    <div class="pub-title">
+      {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+    </div>
+    <div class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+    <div class="pub-venue">{{ pub.venue }}, {{ pub.year }}</div>
+    {% if pub.page or pub.url or pub.pdf or pub.arxiv or pub.code %}
+    <div class="pub-links">
+      {% if pub.page %}<a href="{{ pub.page | relative_url }}">Details</a>{% endif %}
+      {% if pub.url %}<a href="{{ pub.url }}">Paper</a>{% endif %}
+      {% if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
+      {% if pub.arxiv %}<a href="{{ pub.arxiv }}">arXiv</a>{% endif %}
+      {% if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}
+    </div>
+    {% endif %}
+  </div>
+</li>
