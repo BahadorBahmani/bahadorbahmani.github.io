@@ -4,15 +4,20 @@ layout: publication
 pub_id: differentiable-heterogeneous-cohesive-laws
 permalink: /publications/differentiable-heterogeneous-cohesive-laws/
 figure_caption: "A double-cantilever beam with a spatially varying cohesive interface: the load drops and recovers as the crack crosses tougher and weaker segments."
-animations_title: "More animations"
-animations:
-  - src: "/images/publications/differentiable-heterogeneous-cohesive-laws/dcb_inverse.gif"
-    caption: "Inverse identification on the double-cantilever beam: over training, the predicted force-displacement curve converges to the data and the identified traction-separation laws converge to the truth."
-  - src: "/images/publications/differentiable-heterogeneous-cohesive-laws/c3f_forward.gif"
-    caption: "Three-fiber composite with heterogeneous fiber-matrix interfaces, each carrying a spatially varying latent coordinate, debonding under applied displacement."
-  - src: "/images/publications/differentiable-heterogeneous-cohesive-laws/c3f_inverse.gif"
-    caption: "Identification on the composite: the latent field and the Mode I and Mode II traction-separation laws converge to the truth over training."
 ---
+
+<figure class="pub-figure">
+  <img src="{{ '/images/publications/differentiable-heterogeneous-cohesive-laws/dcb_inverse.gif' | relative_url }}" alt="Inverse identification on the double-cantilever beam: over training, the predicted force-displacement curve converges to the data and the identified traction-separation laws converge to the truth." loading="lazy">
+  <figcaption>Inverse identification on the double-cantilever beam: over training, the predicted force-displacement curve converges to the data and the identified traction-separation laws converge to the truth.</figcaption>
+</figure>
+<figure class="pub-figure">
+  <img src="{{ '/images/publications/differentiable-heterogeneous-cohesive-laws/c3f_forward.gif' | relative_url }}" alt="Three-fiber composite with heterogeneous fiber-matrix interfaces, each carrying a spatially varying latent coordinate, debonding under applied displacement." loading="lazy">
+  <figcaption>Three-fiber composite with heterogeneous fiber-matrix interfaces, each carrying a spatially varying latent coordinate, debonding under applied displacement.</figcaption>
+</figure>
+<figure class="pub-figure">
+  <img src="{{ '/images/publications/differentiable-heterogeneous-cohesive-laws/c3f_inverse.gif' | relative_url }}" alt="Identification on the composite: the latent field and the Mode I and Mode II traction-separation laws converge to the truth over training." loading="lazy">
+  <figcaption>Identification on the composite: the latent field and the Mode I and Mode II traction-separation laws converge to the truth over training.</figcaption>
+</figure>
 
 Cohesive laws, the traction-separation relations that govern how interfaces debond, can rarely be measured directly. They must be inferred from remote measurements such as force-displacement histories and sparse strain fields. This inverse problem is often ill-posed, and spatially heterogeneous interfaces make it harder still, since quite different interface laws can produce nearly the same global response.
 
