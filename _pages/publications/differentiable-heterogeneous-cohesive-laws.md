@@ -25,11 +25,11 @@ Building on recent work on [data-driven constitutive priors]({{ '/publications/c
 
 **Key capabilities**
 
-*Efficient inverse identification.* The intrinsic cohesive finite element formulation is fully differentiable, so sensitivities come from a discrete adjoint that accounts for the history-dependent evolution of interfacial damage. In high-dimensional inverse problems, this adjoint-based identification outperforms derivative-free Bayesian optimization.
+*Local measurements matter.* Reproducing the global force-displacement response does not by itself guarantee that the true cohesive laws are recovered. Adding spatially resolved strain measurements, such as digital image correlation (DIC), substantially improves identification.
 
 <figure class="pub-figure">
-  <img src="{{ '/images/publications/differentiable-heterogeneous-cohesive-laws/c3f_bo.gif' | relative_url }}" alt="Bayesian optimization versus adjoint-based identification on a fiber-matrix composite: the adjoint gradients drive the loss several orders of magnitude lower and recover the interface laws." loading="lazy">
-  <figcaption>Bayesian optimization versus adjoint-based identification on a fiber-matrix composite: the adjoint gradients drive the loss several orders of magnitude lower and recover the interface laws.</figcaption>
+  <img src="{{ '/images/publications/differentiable-heterogeneous-cohesive-laws/c3f_error.gif' | relative_url }}" alt="Force data alone reproduce the force-displacement curve but leave large errors in the interface laws; adding DIC strain data recovers them." loading="lazy">
+  <figcaption>Force data alone reproduce the force-displacement curve but leave large errors in the interface laws; adding DIC strain data recovers them.</figcaption>
 </figure>
 
 *Beyond classical cohesive laws.* The learned constitutive prior overcomes the representational limits of conventional cohesive models, even when their parameters are allowed to vary spatially.
@@ -39,9 +39,9 @@ Building on recent work on [data-driven constitutive priors]({{ '/publications/c
   <figcaption>A spatially varying bilinear cohesive model versus the learned prior: the prior reaches a far lower loss and much smaller interface errors.</figcaption>
 </figure>
 
-*Local measurements matter.* Reproducing the global force-displacement response does not by itself guarantee that the true cohesive laws are recovered. Adding spatially resolved strain measurements, such as digital image correlation (DIC), substantially improves identification.
+*Efficient inverse identification.* The intrinsic cohesive finite element formulation is fully differentiable, so sensitivities come from a discrete adjoint that accounts for the history-dependent evolution of interfacial damage. In high-dimensional inverse problems, this adjoint-based identification outperforms derivative-free Bayesian optimization.
 
 <figure class="pub-figure">
-  <img src="{{ '/images/publications/differentiable-heterogeneous-cohesive-laws/c3f_error.gif' | relative_url }}" alt="Force data alone reproduce the force-displacement curve but leave large errors in the interface laws; adding DIC strain data recovers them." loading="lazy">
-  <figcaption>Force data alone reproduce the force-displacement curve but leave large errors in the interface laws; adding DIC strain data recovers them.</figcaption>
+  <img src="{{ '/images/publications/differentiable-heterogeneous-cohesive-laws/c3f_bo.gif' | relative_url }}" alt="Bayesian optimization versus adjoint-based identification on a fiber-matrix composite: the adjoint gradients drive the loss several orders of magnitude lower and recover the interface laws." loading="lazy">
+  <figcaption>Bayesian optimization versus adjoint-based identification on a fiber-matrix composite: the adjoint gradients drive the loss several orders of magnitude lower and recover the interface laws.</figcaption>
 </figure>
