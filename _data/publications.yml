@@ -74,6 +74,7 @@
   abbr: "Preprint"
   year: 2026
   url: "https://www.researchgate.net/publication/416009195_A_Differentiable_Framework_for_Inverse_Identification_of_Heterogeneous_Cohesive_Laws"
+  image: "/images/publications/differentiable-heterogeneous-cohesive-laws.gif"
   page: "/publications/differentiable-heterogeneous-cohesive-laws/"
 
 - id: data-driven-cohesive-zone-gsm

@@ -5,7 +5,9 @@ layout: single
 {% comment %}
   Detail page for one paper. The page sets `pub_id`; the citation, links and
   figure come from that entry in _data/publications.yml, and the page body is
-  the summary. `figure_caption` in the page front matter captions the figure.
+  the summary. `figure_caption` in the page front matter captions the figure,
+  and an optional `animations` list (each with `src` and `caption`) is shown
+  below the summary.
 {% endcomment %}
 {% assign pub = site.data.publications | where: "id", page.pub_id | first %}
 
@@ -32,5 +34,15 @@ layout: single
 <div class="pub-summary">
 {{ content }}
 </div>
+
+{% if page.animations %}
+<h2 class="pub-animations-title">Animations</h2>
+{% for anim in page.animations %}
+<figure class="pub-figure">
+  <img src="{{ anim.src | relative_url }}" alt="{{ anim.caption | escape }}" loading="lazy">
+  {% if anim.caption %}<figcaption>{{ anim.caption }}</figcaption>{% endif %}
+</figure>
+{% endfor %}
+{% endif %}
 
 <p class="pub-back"><a href="{{ '/publications/' | relative_url }}">&larr; All publications</a></p>

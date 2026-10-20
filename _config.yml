@@ -147,6 +147,7 @@ include:
   - _pages
   - files
 exclude:
+  - refs
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
