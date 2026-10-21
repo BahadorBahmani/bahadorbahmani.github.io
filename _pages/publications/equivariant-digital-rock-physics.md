@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Equivariant geometric learning for digital rock physics: estimating formation factor and effective permeability tensors from Morse graph"
 layout: publication
 pub_id: equivariant-digital-rock-physics

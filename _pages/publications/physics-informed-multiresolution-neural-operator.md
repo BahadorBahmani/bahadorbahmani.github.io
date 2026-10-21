@@ -1,4 +1,5 @@
 ---
+published: false
 title: "A Physics-informed Multi-resolution Neural Operator"
 layout: publication
 pub_id: physics-informed-multiresolution-neural-operator

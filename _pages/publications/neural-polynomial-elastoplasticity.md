@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Discovering Interpretable Elastoplasticity Models via the Neural Polynomial Method enabled Symbolic Regression"
 layout: publication
 pub_id: neural-polynomial-elastoplasticity

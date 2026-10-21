@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Synthesizing controlled microstructures of porous media using generative adversarial networks and reinforcement learning"
 layout: publication
 pub_id: gan-rl-porous-microstructures

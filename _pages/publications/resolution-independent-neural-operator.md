@@ -1,4 +1,5 @@
 ---
+published: false
 title: "A Resolution Independent Neural Operator"
 layout: publication
 pub_id: resolution-independent-neural-operator

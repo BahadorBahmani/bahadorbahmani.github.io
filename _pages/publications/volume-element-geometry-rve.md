@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Effect of volume element geometry on convergence to a representative volume"
 layout: publication
 pub_id: volume-element-geometry-rve

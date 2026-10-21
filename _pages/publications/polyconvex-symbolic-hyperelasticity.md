@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Physics-constrained Symbolic Model Discovery for Polyconvex Incompressible Hyperelastic Material"
 layout: publication
 pub_id: polyconvex-symbolic-hyperelasticity

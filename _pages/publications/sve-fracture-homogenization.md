@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Automated homogenization-based fracture analysis: Effects of SVE size and boundary condition"
 layout: publication
 pub_id: sve-fracture-homogenization

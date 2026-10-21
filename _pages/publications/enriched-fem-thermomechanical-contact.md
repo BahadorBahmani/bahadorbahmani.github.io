@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Application of an enriched FEM technique in thermo-mechanical contact problems"
 layout: publication
 pub_id: enriched-fem-thermomechanical-contact

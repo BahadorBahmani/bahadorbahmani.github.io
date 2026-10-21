@@ -120,7 +120,6 @@
   url: "https://doi.org/10.1016/j.jcp.2025.114233"
   arxiv: "https://arxiv.org/abs/2502.11835"
   image: "/images/publications/neural-chaos.png"
-  page: "/publications/neural-chaos/"
 
 - id: resolution-independent-neural-operator
   title: "A Resolution Independent Neural Operator"
@@ -131,7 +130,6 @@
   url: "https://www.sciencedirect.com/science/article/abs/pii/S0045782525003858"
   arxiv: "https://arxiv.org/abs/2407.13010"
   image: "/images/publications/resolution-independent-neural-operator.png"
-  page: "/publications/resolution-independent-neural-operator/"
 
 - id: physics-informed-multiresolution-neural-operator
   title: "A Physics-informed Multi-resolution Neural Operator"
@@ -141,7 +139,6 @@
   year: 2025
   url: "https://arxiv.org/abs/2510.23810"
   image: "/images/publications/physics-informed-multiresolution-neural-operator.png"
-  page: "/publications/physics-informed-multiresolution-neural-operator/"
 
 - id: polyconvex-symbolic-hyperelasticity
   title: "Physics-constrained Symbolic Model Discovery for Polyconvex Incompressible Hyperelastic Material"
@@ -152,7 +149,6 @@
   url: "https://onlinelibrary.wiley.com/doi/full/10.1002/nme.7473"
   arxiv: "https://arxiv.org/abs/2310.04286"
   image: "/images/publications/polyconvex-symbolic-hyperelasticity.png"
-  page: "/publications/polyconvex-symbolic-hyperelasticity/"
 
 - id: neural-polynomial-elastoplasticity
   title: "Discovering Interpretable Elastoplasticity Models via the Neural Polynomial Method enabled Symbolic Regression"
@@ -163,7 +159,6 @@
   url: "https://www.sciencedirect.com/science/article/pii/S0045782524000835"
   arxiv: "https://arxiv.org/abs/2307.13149"
   image: "/images/publications/neural-polynomial-elastoplasticity.png"
-  page: "/publications/neural-polynomial-elastoplasticity/"
 
 - id: review-data-driven-constitutive-laws
   title: "A Review on Data-Driven Constitutive Laws for Solids"
@@ -174,7 +169,6 @@
   url: "https://link.springer.com/article/10.1007/s11831-024-10196-2"
   arxiv: "https://arxiv.org/abs/2405.03658"
   image: "/images/publications/review-data-driven-constitutive-laws.png"
-  page: "/publications/review-data-driven-constitutive-laws/"
 
 - id: manifold-embedding-data-driven-mechanics
   title: "Manifold embedding data-driven mechanics"
@@ -185,7 +179,6 @@
   url: "https://www.sciencedirect.com/science/article/pii/S0022509622001259"
   arxiv: "https://arxiv.org/abs/2112.09842"
   image: "/images/publications/manifold-embedding-data-driven-mechanics.png"
-  page: "/publications/manifold-embedding-data-driven-mechanics/"
 
 - id: distance-preserving-manifold-denoising
   title: "Distance-preserving manifold de-noising for data-driven mechanics"
@@ -195,7 +188,6 @@
   year: 2023
   url: "https://www.sciencedirect.com/science/article/pii/S0045782522008131"
   image: "/images/publications/distance-preserving-manifold-denoising.png"
-  page: "/publications/distance-preserving-manifold-denoising/"
 
 - id: equivariant-digital-rock-physics
   title: "Equivariant geometric learning for digital rock physics: estimating formation factor and effective permeability tensors from Morse graph"
@@ -206,7 +198,6 @@
   url: "https://www.dl.begellhouse.com/journals/61fd1b191cf7e96f,1f61097b2b8038e0,755c1ea40d25b4c7.html"
   arxiv: "https://arxiv.org/abs/2104.05608"
   image: "/images/publications/equivariant-digital-rock-physics.png"
-  page: "/publications/equivariant-digital-rock-physics/"
 
 - id: causal-discovery-granular-materials
   title: "Data-driven discovery of interpretable causal relations for deep learning material laws with uncertainty quantification"
@@ -217,7 +208,6 @@
   url: "https://link.springer.com/article/10.1007/s10035-021-01137-y"
   arxiv: "https://arxiv.org/abs/2105.09980"
   image: "/images/publications/causal-discovery-granular-materials.png"
-  page: "/publications/causal-discovery-granular-materials/"
 
 - id: gan-rl-porous-microstructures
   title: "Synthesizing controlled microstructures of porous media using generative adversarial networks and reinforcement learning"
@@ -227,7 +217,6 @@
   year: 2022
   url: "https://www.nature.com/articles/s41598-022-12845-7"
   image: "/images/publications/gan-rl-porous-microstructures.png"
-  page: "/publications/gan-rl-porous-microstructures/"
 
 - id: kd-tree-poroelasticity
   title: "A kd-tree-accelerated hybrid data-driven/model-based approach for poroelasticity problems with multi-fidelity multi-physics data"
@@ -238,7 +227,6 @@
   url: "https://www.sciencedirect.com/science/article/pii/S004578252100205X"
   arxiv: "https://arxiv.org/abs/2012.00165"
   image: "/images/publications/kd-tree-poroelasticity.png"
-  page: "/publications/kd-tree-poroelasticity/"
 
 - id: multitask-pinn-transfer-learning
   title: "Training multi-objective/multi-task collocation physics-informed neural network with student-teachers transfer learnings"
@@ -248,7 +236,6 @@
   year: 2021
   url: "https://arxiv.org/abs/2107.11496"
   image: "/images/publications/multitask-pinn-transfer-learning.png"
-  page: "/publications/multitask-pinn-transfer-learning/"
 
 - id: sve-fracture-homogenization
   title: "Automated homogenization-based fracture analysis: Effects of SVE size and boundary condition"
@@ -257,7 +244,6 @@
   abbr: "CMAME"
   year: 2019
   url: "https://www.sciencedirect.com/science/article/pii/S0045782518305644"
-  page: "/publications/sve-fracture-homogenization/"
 
 - id: spacetime-dg-bulk-damage
   title: "Asynchronous spacetime discontinuous Galerkin formulation for a hyperbolic time-delay bulk damage model"
@@ -266,7 +252,6 @@
   abbr: "JEM"
   year: 2019
   url: "https://ascelibrary.org/doi/10.1061/%28ASCE%29EM.1943-7889.0001656"
-  page: "/publications/spacetime-dg-bulk-damage/"
 
 - id: stochastic-bulk-damage-rock
   title: "A stochastic bulk damage model based on Mohr-Coulomb failure criterion for dynamic rock fracture"
@@ -276,7 +261,6 @@
   year: 2019
   url: "https://www.mdpi.com/2076-3417/9/5/830"
   image: "/images/publications/stochastic-bulk-damage-rock.png"
-  page: "/publications/stochastic-bulk-damage-rock/"
 
 - id: volume-element-geometry-rve
   title: "Effect of volume element geometry on convergence to a representative volume"
@@ -285,7 +269,6 @@
   abbr: "ASCE-ASME"
   year: 2019
   url: "https://asmedigitalcollection.asme.org/risk/article/5/3/030907/725714/Effect-of-Volume-Element-Geometry-on-Convergence"
-  page: "/publications/volume-element-geometry-rve/"
 
 - id: voronoi-sve-fracture
   title: "Voronoi tessellation based statistical volume element characterization for use in fracture modeling"
@@ -294,7 +277,6 @@
   abbr: "CMAME"
   year: 2018
   url: "https://www.sciencedirect.com/science/article/pii/S0045782518301051"
-  page: "/publications/voronoi-sve-fracture/"
 
 - id: enriched-fem-thermomechanical-contact
   title: "Application of an enriched FEM technique in thermo-mechanical contact problems"
@@ -304,4 +286,3 @@
   year: 2018
   url: "https://link.springer.com/article/10.1007/s00466-018-1555-z"
   image: "/images/publications/enriched-fem-thermomechanical-contact.png"
-  page: "/publications/enriched-fem-thermomechanical-contact/"

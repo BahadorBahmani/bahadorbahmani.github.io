@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Manifold embedding data-driven mechanics"
 layout: publication
 pub_id: manifold-embedding-data-driven-mechanics

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Distance-preserving manifold de-noising for data-driven mechanics"
 layout: publication
 pub_id: distance-preserving-manifold-denoising

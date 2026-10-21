@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Training multi-objective/multi-task collocation physics-informed neural network with student-teachers transfer learnings"
 layout: publication
 pub_id: multitask-pinn-transfer-learning

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Asynchronous spacetime discontinuous Galerkin formulation for a hyperbolic time-delay bulk damage model"
 layout: publication
 pub_id: spacetime-dg-bulk-damage

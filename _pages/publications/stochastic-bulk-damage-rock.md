@@ -1,4 +1,5 @@
 ---
+published: false
 title: "A stochastic bulk damage model based on Mohr-Coulomb failure criterion for dynamic rock fracture"
 layout: publication
 pub_id: stochastic-bulk-damage-rock

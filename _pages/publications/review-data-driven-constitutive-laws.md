@@ -1,4 +1,5 @@
 ---
+published: false
 title: "A Review on Data-Driven Constitutive Laws for Solids"
 layout: publication
 pub_id: review-data-driven-constitutive-laws

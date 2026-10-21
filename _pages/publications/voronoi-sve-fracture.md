@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Voronoi tessellation based statistical volume element characterization for use in fracture modeling"
 layout: publication
 pub_id: voronoi-sve-fracture

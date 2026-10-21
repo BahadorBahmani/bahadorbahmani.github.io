@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Neural Chaos: A Spectral Stochastic Neural Operator"
 layout: publication
 pub_id: neural-chaos
