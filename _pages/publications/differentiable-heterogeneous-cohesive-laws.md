@@ -26,9 +26,9 @@ A double-cantilever beam whose interface carries a spatially varying latent coor
 
 A three-fiber composite with heterogeneous fiber-matrix interfaces extends the test to mixed-mode debonding, where both the Mode I and Mode II traction-separation laws are identified.
 
-{% include pub-animation.html src="c3f_forward.gif" width="688px" caption="Three-fiber composite with heterogeneous fiber-matrix interfaces, each carrying a spatially varying latent coordinate, debonding under applied displacement." %}
+{% include pub-animation.html src="c3f_forward.gif" width="832px" caption="Three-fiber composite with heterogeneous fiber-matrix interfaces, each carrying a spatially varying latent coordinate, debonding under applied displacement." %}
 
-{% include pub-animation.html src="c3f_inverse.gif" width="901px" caption="Identification on the composite: the latent field and the Mode I and Mode II traction-separation laws converge to the truth over training." %}
+{% include pub-animation.html src="c3f_inverse.gif" width="832px" caption="Identification on the composite: the latent field and the Mode I and Mode II traction-separation laws converge to the truth over training." %}
 
 ## Key Features
 
