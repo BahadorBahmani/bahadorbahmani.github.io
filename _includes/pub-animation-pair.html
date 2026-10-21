@@ -1,19 +1,28 @@
 {%- comment -%}
-  Two animations side by side on a publication detail page, with one shared
-  caption. `left` and `right` are file names in /images/publications/<pub_id>/
-  (or full paths), and `left_width` / `right_width` (e.g. "30%") are each one's
-  share of the column, so two animations drawn at the same scale and with the
-  same native height line up at the same height. Optional `left_offset` /
+  Two (or, with `center`, three) animations side by side on a publication
+  detail page, with one shared caption. `left`, `center` and `right` are file
+  names in /images/publications/<pub_id>/ (or full paths), and `left_width` /
+  `center_width` / `right_width` (e.g. "30%") are each one's share of the
+  column, so animations drawn at the same scale and with the same native height
+  line up at the same height. Optional `left_offset` / `center_offset` /
   `right_offset` (e.g. "3.5%" of the column width) move one down, to line up
   plot frames that sit at different heights inside their files. The caption
   spans exactly the row, and follows the page's `caption_align`.
 {%- endcomment -%}
 {%- assign gap = 4 -%}
+{%- comment -%} Liquid variables outlive an include, so clear what the previous use may have set. {%- endcomment -%}
+{%- assign center_src = nil -%}
+{%- assign row_width = nil -%}
 {%- assign folder = "/images/publications/" | append: page.pub_id | append: "/" -%}
 {%- if include.left contains "/" -%}
   {%- assign left_src = include.left -%}
 {%- else -%}
   {%- assign left_src = folder | append: include.left -%}
+{%- endif -%}
+{%- if include.center contains "/" -%}
+  {%- assign center_src = include.center -%}
+{%- elsif include.center -%}
+  {%- assign center_src = folder | append: include.center -%}
 {%- endif -%}
 {%- if include.right contains "/" -%}
   {%- assign right_src = include.right -%}
@@ -24,11 +33,20 @@
   {%- assign row_width = include.left_width | remove: "%" | plus: 0 -%}
   {%- assign right_width = include.right_width | remove: "%" | plus: 0 -%}
   {%- assign row_width = row_width | plus: right_width | plus: gap -%}
+  {%- if include.center -%}
+    {%- if include.center_width -%}
+      {%- assign center_width = include.center_width | remove: "%" | plus: 0 -%}
+      {%- assign row_width = row_width | plus: center_width | plus: gap -%}
+    {%- else -%}
+      {%- assign row_width = nil -%}
+    {%- endif -%}
+  {%- endif -%}
 {%- endif -%}
 <figure class="pub-figure pub-figure-stacked">
   <div class="pub-figure-row" style="gap: {{ gap }}%;">
     <img src="{{ left_src | relative_url }}" alt="" loading="lazy" style="{% if include.left_width %}width: {{ include.left_width }};{% endif %}{% if include.left_offset %} margin-top: {{ include.left_offset }};{% endif %}">
+    {% if center_src %}<img src="{{ center_src | relative_url }}" alt="" loading="lazy" style="{% if include.center_width %}width: {{ include.center_width }};{% endif %}{% if include.center_offset %} margin-top: {{ include.center_offset }};{% endif %}">{% endif %}
     <img src="{{ right_src | relative_url }}" alt="" loading="lazy" style="{% if include.right_width %}width: {{ include.right_width }};{% endif %}{% if include.right_offset %} margin-top: {{ include.right_offset }};{% endif %}">
   </div>
-  {% if include.caption %}<figcaption style="{% if row_width %}width: {{ row_width }}%; margin-left: auto; margin-right: auto;{% endif %}{% if page.caption_align %} text-align: {{ page.caption_align }};{% endif %}">{{ include.caption }}</figcaption>{% endif %}
+  {% if include.caption %}<figcaption{% if row_width or page.caption_align %} style="{% if row_width %}width: {{ row_width }}%; margin-left: auto; margin-right: auto;{% endif %}{% if page.caption_align %} text-align: {{ page.caption_align }};{% endif %}"{% endif %}>{{ include.caption }}</figcaption>{% endif %}
 </figure>

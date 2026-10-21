@@ -55,6 +55,7 @@
   url: "https://doi.org/10.1002/nme.70346"
   arxiv: "https://arxiv.org/abs/2602.10451"
   image: "/images/publications/multimodal-conditional-mixture.png"
+  thumbnail: "/images/publications/multimodal-conditional-mixture/shock_right.gif"
   page: "/publications/multimodal-conditional-mixture/"
 
 - id: multifidelity-bayesian-neural-operator

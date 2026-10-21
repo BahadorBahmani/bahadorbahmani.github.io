@@ -13,5 +13,5 @@
 {%- endif -%}
 <figure class="pub-figure pub-figure-stacked">
   <img src="{{ anim_src | relative_url }}" alt="{{ include.caption | escape }}" loading="lazy"{% if include.width %} style="width: {{ include.width }}; max-height: none;"{% endif %}>
-  {% if include.caption %}<figcaption style="{% if include.width %}width: {{ include.width }}; margin-left: auto; margin-right: auto;{% endif %}{% if page.caption_align %} text-align: {{ page.caption_align }};{% endif %}">{{ include.caption }}</figcaption>{% endif %}
+  {% if include.caption %}<figcaption{% if include.width or page.caption_align %} style="{% if include.width %}width: {{ include.width }}; margin-left: auto; margin-right: auto;{% endif %}{% if page.caption_align %} text-align: {{ page.caption_align }};{% endif %}"{% endif %}>{{ include.caption }}</figcaption>{% endif %}
 </figure>
