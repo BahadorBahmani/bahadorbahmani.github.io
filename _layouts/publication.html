@@ -16,7 +16,7 @@ layout: single
 
 <div class="pub-detail-meta">
   <div class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
-  <div class="pub-venue">{{ pub.venue }}, {{ pub.year }}</div>
+  <div class="pub-venue">{{ pub.venue }}, {{ pub.venue_year | default: pub.year }}</div>
   {% if pub.url or pub.pdf or pub.arxiv or pub.code %}
   <div class="pub-links">
     {% if pub.url %}<a href="{{ pub.url }}">Paper</a>{% endif %}

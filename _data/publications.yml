@@ -9,7 +9,10 @@
 #   title    (required)
 #   authors  (required) Markdown; wrap the PI's name in ** ** to bold it.
 #   venue    (required) Shown in italics.
-#   year     (required)
+#   year     (required) The section the paper is listed under.
+#   venue_year
+#            Year shown after the venue, when it differs from `year`
+#            (e.g. a journal issue dated the following year).
 #   abbr     Short venue tag, shown on the thumbnail placeholder when there
 #            is no image (e.g. CMAME, arXiv).
 #   url      Main link for the paper; the title links here.
@@ -49,6 +52,7 @@
   venue: "Computer Methods in Applied Mechanics and Engineering"
   abbr: "CMAME"
   year: 2026
+  venue_year: 2027
   url: "https://doi.org/10.1016/j.cma.2026.119345"
   arxiv: "https://arxiv.org/abs/2605.09307"
   image: "/images/publications/constitutive-priors-inverse-design.png"

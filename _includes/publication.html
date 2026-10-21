@@ -20,7 +20,7 @@
       {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
     </div>
     <div class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
-    <div class="pub-venue">{{ pub.venue }}, {{ pub.year }}</div>
+    <div class="pub-venue">{{ pub.venue }}, {{ pub.venue_year | default: pub.year }}</div>
     {% if pub.page or pub.url or pub.pdf or pub.arxiv or pub.code %}
     <div class="pub-links">
       {% if pub.page %}<a href="{{ pub.page | relative_url }}">Details</a>{% endif %}
