@@ -257,3 +257,11 @@
 
   h2:first-child { margin-top: 0.5em; }
 }
+
+// Optional editor's note at the top of a publication detail page (`byline`).
+.pub-byline {
+  margin: 0 0 1.4em;
+  color: #7a828b;
+  font-size: 0.9em;
+  font-style: italic;
+}
