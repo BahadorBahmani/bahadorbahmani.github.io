@@ -164,11 +164,16 @@
 .pub-figure {
   margin: 0 0 1.8em;
 
+  // The theme sets `figure img { width: 100% }`; with the height cap that
+  // squashes wide animations on large screens, so let the width follow the
+  // height instead.
   img {
     display: block;
+    width: auto;
     max-width: 100%;
     max-height: 480px;
     margin: 0 auto;
+    object-fit: contain;
   }
 
   // The theme lays figures out as a wrapping flex row, which puts a narrow
