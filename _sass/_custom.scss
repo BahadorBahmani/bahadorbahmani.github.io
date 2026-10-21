@@ -229,7 +229,7 @@
     padding-bottom: 0;
     border-bottom: none;
     color: $text-color;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 600;
     font-variant: small-caps;
     letter-spacing: 0.06em;
@@ -239,7 +239,7 @@
       counter-increment: pub-section;
       content: counter(pub-section, decimal-leading-zero);
       color: $link-color;
-      font-size: 2em;
+      font-size: 0.8em; /* of the heading, i.e. 1.6x body text */
       font-variant: normal;
       font-weight: 700;
       letter-spacing: 0;
