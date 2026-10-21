@@ -5,6 +5,7 @@ layout: publication
 pub_id: stochastic-bulk-damage-rock
 permalink: /publications/stochastic-bulk-damage-rock/
 figure_caption: "Damage spreading through a heterogeneous rock sample under strong compressive loading, with localized damage bands forming over time."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Bulk damage models represent microcracking through a smooth damage field, which makes complex rock fracture patterns easy to capture. However, common formulations drive damage only with the tensile part of strain or stress, so they fail to model rock failure in compression. Earlier local models also suffer from mesh sensitivity.

@@ -5,6 +5,7 @@ layout: publication
 pub_id: distance-preserving-manifold-denoising
 permalink: /publications/distance-preserving-manifold-denoising/
 figure_caption: "The three-step local projection: an encoder flattens noisy data onto a hyperplane, points are projected onto it, and an isometric decoder maps them back as de-noised data."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Model-free, data-driven simulations replace constitutive models by searching directly in a database of material data. In practice such data are often limited and noisy, and noise can degrade the closest-point projection onto the data that these methods rely on.

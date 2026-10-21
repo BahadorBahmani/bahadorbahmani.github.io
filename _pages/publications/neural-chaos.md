@@ -5,6 +5,7 @@ layout: publication
 pub_id: neural-chaos
 permalink: /publications/neural-chaos/
 figure_caption: "Neural Chaos builds a spectral expansion one term at a time, with each term the product of a learned deterministic basis function and a learned stochastic basis function."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Surrogate models with uncertainty quantification are needed whenever material properties, boundary conditions or initial conditions are random. Polynomial chaos expansion is the standard tool, but complex or high-dimensional problems need high-order polynomials, which raises cost and the risk of overfitting, and dependent random variables need special, problem-specific treatment.

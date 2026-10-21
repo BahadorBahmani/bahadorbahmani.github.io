@@ -5,6 +5,7 @@ layout: publication
 pub_id: manifold-embedding-data-driven-mechanics
 permalink: /publications/manifold-embedding-data-driven-mechanics/
 figure_caption: "The classical distance-minimization solver (left) compared with the new approach (right), which searches for the closest material state in a learned Euclidean embedding of the data."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Model-free, data-driven mechanics replaces constitutive laws by searching a material database for the data points closest to states that satisfy the balance laws. How this distance is measured matters: standard weighted energy norms treat the data as if they lie in a flat Euclidean space, which is often unrealistic when data are sparse, unevenly spread or lie on a curved constitutive manifold.

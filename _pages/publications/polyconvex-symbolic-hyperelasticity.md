@@ -5,6 +5,7 @@ layout: publication
 pub_id: polyconvex-symbolic-hyperelasticity
 permalink: /publications/polyconvex-symbolic-hyperelasticity/
 figure_caption: "Two-step discovery: convex neural networks first fit the energy of each strain invariant, then symbolic regression turns each one into a short equation."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Hyperelastic energy functionals describe soft materials that undergo large elastic deformations. Neural network models can fit such data well, but they are hard to interpret, may violate physical requirements such as polyconvexity, and can behave poorly outside the training range. Symbolic regression gives readable equations but struggles when there are many input variables.

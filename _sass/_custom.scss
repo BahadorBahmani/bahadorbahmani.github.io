@@ -262,13 +262,13 @@
 // (`byline`), matching the right-aligned note on the Constitutive Priors page,
 // including its spacing: ordinary paragraph margins, then a 0.5em gap above
 // the first section heading.
-.pub-summary .pub-byline {
+.page__content p.pub-byline {
   color: #7a8288;
   font-size: 0.8em;
   font-style: italic;
   text-align: right;
 }
 
-.pub-summary .pub-byline + h2 {
+.page__content p.pub-byline + h2 {
   margin-top: 0.5em;
 }

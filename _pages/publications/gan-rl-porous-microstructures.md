@@ -5,6 +5,7 @@ layout: publication
 pub_id: gan-rl-porous-microstructures
 permalink: /publications/gan-rl-porous-microstructures/
 figure_caption: "Overview of the GAN-AC framework: an actor network tunes the inputs of a 3D GAN generator until the synthetic microstructure reaches the user's target properties."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Synthetic microstructures act as digital twins for material modeling, supplying samples on which direct numerical simulations can populate material databases. Generating microstructures that are both realistic and have specified physical properties is difficult, so they are often built from rough approximations that misrepresent real materials.

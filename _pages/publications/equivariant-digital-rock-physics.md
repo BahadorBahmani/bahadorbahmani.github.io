@@ -5,6 +5,7 @@ layout: publication
 pub_id: equivariant-digital-rock-physics
 permalink: /publications/equivariant-digital-rock-physics/
 figure_caption: "Rotating the Morse graph of a rock sample rotates the permeability tensor predicted by the equivariant network, shown as an ellipsoid, in the same way."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Formation factor and effective permeability are key hydraulic properties of porous rocks, and they can be computed from micro-CT images through direct numerical simulation. Such 3D simulations are costly, while standard convolutional neural networks used as surrogates can give predictions that depend spuriously on the orientation of the image and require large memory for 3D inputs.

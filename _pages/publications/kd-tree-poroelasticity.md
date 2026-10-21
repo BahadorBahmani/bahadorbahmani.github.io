@@ -5,6 +5,7 @@ layout: publication
 pub_id: kd-tree-poroelasticity
 permalink: /publications/kd-tree-poroelasticity/
 figure_caption: "The four formulations, from fully model-based to fully data-driven, defined by whether the solid and fluid constitutive laws are model-based or data-driven."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Poroelasticity models couple solid deformation with pore-fluid flow, but the two constitutive laws differ widely in fidelity. Elastic responses of rocks, soils and bone are often captured well by calibrated models, whereas porosity-permeability predictions carry much larger uncertainty, making hydraulic models a major bottleneck.

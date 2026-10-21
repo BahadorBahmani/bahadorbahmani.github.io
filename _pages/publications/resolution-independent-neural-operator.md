@@ -5,6 +5,7 @@ layout: publication
 pub_id: resolution-independent-neural-operator
 permalink: /publications/resolution-independent-neural-operator/
 figure_caption: "Vanilla DeepONet needs input functions sampled at the same fixed points, while the resolution-independent version projects arbitrarily sampled inputs onto a learned dictionary of basis functions before the branch network."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 DeepONet is a simple and flexible neural operator for learning maps between function spaces, and it can evaluate the output anywhere in the domain. However, it requires every input function to be sampled at the same fixed sensor locations, which limits its use with real data collected at varying numbers and positions of points.

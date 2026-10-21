@@ -4,6 +4,7 @@ title: "Voronoi tessellation based statistical volume element characterization f
 layout: publication
 pub_id: voronoi-sve-fracture
 permalink: /publications/voronoi-sve-fracture/
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Fracture patterns in heterogeneous materials depend strongly on random variations in the microstructure, where cracks nucleate and propagate. Accurate fracture simulation therefore needs material property data at intermediate scales, between the scale of the heterogeneity and that of a representative volume element (RVE). Statistical volume elements (SVEs), obtained by partitioning an RVE, give a probabilistic description of material properties at this mesoscale.

@@ -4,6 +4,7 @@ layout: publication
 pub_id: multifidelity-bayesian-neural-operator
 permalink: /publications/multifidelity-bayesian-neural-operator/
 figure_caption: "A low-fidelity operator trained on actively selected simulations feeds a high-fidelity Bayesian model that learns the remaining gap to experiments from the 3D microstructure geometry."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Spinodal metamaterials offer a large design space for tailoring nonlinear mechanical behavior, but exploiting it for inverse design requires predicting full stress-strain curves, not just a few bulk properties. Data-driven models for this task are limited by the high cost of experiments, while cheaper simulations do not capture all real effects such as fabrication defects.

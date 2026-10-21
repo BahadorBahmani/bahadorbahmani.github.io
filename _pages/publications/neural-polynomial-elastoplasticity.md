@@ -5,6 +5,7 @@ layout: publication
 pub_id: neural-polynomial-elastoplasticity
 permalink: /publications/neural-polynomial-elastoplasticity/
 figure_caption: "Divide-and-conquer symbolic regression: each learned one-dimensional neural feature is replaced by an equation, and the yield function becomes a polynomial of these features."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Neural network elastoplasticity models can be accurate, but they are often seen as black boxes, which limits their use in high-consequence engineering. Symbolic regression can produce readable equations, yet it scales poorly when a yield surface depends on several stress variables.

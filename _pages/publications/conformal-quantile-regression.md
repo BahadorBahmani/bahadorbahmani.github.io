@@ -4,6 +4,7 @@ layout: publication
 pub_id: conformal-quantile-regression
 permalink: /publications/conformal-quantile-regression/
 figure_caption: "Strain invariants from the deformation and fiber directions feed monotone neural networks that give upper and lower stress quantiles, which conformal prediction then calibrates."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Biological soft tissues are highly nonlinear, anisotropic and vary a lot from one specimen to another, yet most data-driven constitutive models are deterministic and give no measure of predictive uncertainty. Bayesian neural networks can supply uncertainty, but they are costly to train, need repeated sampling at inference, and make it harder to keep physical constraints.

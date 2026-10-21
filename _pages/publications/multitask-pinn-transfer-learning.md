@@ -5,6 +5,7 @@ layout: publication
 pub_id: multitask-pinn-transfer-learning
 permalink: /publications/multitask-pinn-transfer-learning/
 figure_caption: "Temperature field for a 2D Poisson problem: exact solution, a PINN guided by a coarse finite element solution, and a plain PINN."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Physics-informed neural networks (PINNs) solve boundary value problems by training a network to satisfy governing equations and boundary conditions, but their training is fragile. Results depend heavily on weight initialization and hyperparameters, and the multiple physics constraints in the loss can conflict, so that reducing one error term increases another.

@@ -4,6 +4,7 @@ title: "Automated homogenization-based fracture analysis: Effects of SVE size an
 layout: publication
 pub_id: sve-fracture-homogenization
 permalink: /publications/sve-fracture-homogenization/
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Fracture in particulate composites is strongly affected by microscale inhomogeneities and varies from sample to sample. This paper uses statistical volume elements (SVEs) to capture these variations when homogenizing the elastic and fracture properties of ZrB2-SiC, a two-phase composite often used as a thermal coating.

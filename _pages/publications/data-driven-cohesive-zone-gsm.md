@@ -4,6 +4,7 @@ layout: publication
 pub_id: data-driven-cohesive-zone-gsm
 permalink: /publications/data-driven-cohesive-zone-gsm/
 figure_caption: "A single learned cohesive model reproduces normal and tangential traction-separation curves across mode mixities, including held-out cases, and recovers the fracture energy as a function of mode mixity."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Cohesive zone models describe fracture and interfacial failure through a traction-separation law across a crack. Most formulations prescribe a problem-specific analytical law plus phenomenological unloading and reloading rules, so different cohesive behaviors call for separately built models, and fixed functional forms can miss plateaus, long softening tails or irregular, mode-dependent shapes.

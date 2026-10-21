@@ -29,6 +29,9 @@ layout: single
   {% endif %}
 </div>
 
+{% comment %} The byline leads the page: above the main figure, or as the summary's first line when the body places the figure. {% endcomment %}
+{% if page.byline and page.figure_in_body != true %}<p class="pub-byline">{{ page.byline }}</p>{% endif %}
+
 {% if pub.image and page.figure_in_body != true %}
 <figure class="pub-figure{% if page.figure_width %} pub-figure-stacked{% endif %}">
   <img src="{{ pub.image | relative_url }}" alt="{{ page.figure_caption | default: pub.title | escape }}"{% if page.figure_width %} style="width: {{ page.figure_width }}; max-height: none;"{% endif %}>
@@ -37,7 +40,7 @@ layout: single
 {% endif %}
 
 <div class="pub-summary{% if page.section_style == "numbered" %} pub-summary-numbered{% endif %}">
-{% if page.byline %}<p class="pub-byline">{{ page.byline }}</p>{% endif %}
+{% if page.byline and page.figure_in_body == true %}<p class="pub-byline">{{ page.byline }}</p>{% endif %}
 {{ content }}
 </div>
 

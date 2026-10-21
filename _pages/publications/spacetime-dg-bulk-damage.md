@@ -4,6 +4,7 @@ title: "Asynchronous spacetime discontinuous Galerkin formulation for a hyperbol
 layout: publication
 pub_id: spacetime-dg-bulk-damage
 permalink: /publications/spacetime-dg-bulk-damage/
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Simulating failure of brittle materials under dynamic loading with continuum damage models is hampered by mesh sensitivity, and many existing remedies are computationally expensive. This paper presents a bulk damage formulation for dynamic fracture that addresses this issue at lower cost.

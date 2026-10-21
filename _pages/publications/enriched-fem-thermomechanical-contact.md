@@ -5,6 +5,7 @@ layout: publication
 pub_id: enriched-fem-thermomechanical-contact
 permalink: /publications/enriched-fem-thermomechanical-contact/
 figure_caption: "A cracked body under thermal and mechanical loads, with contact tractions and heat flux transferred across the closed crack faces."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Cracks in heated components can open, close, and slide, and the heat flowing across a closed crack depends on how hard its faces press together. Analytical solutions to such thermo-mechanical contact problems exist only for special cases, so numerical tools are needed. This paper notes that no explicit enriched finite element algorithm for this coupled problem existed before.

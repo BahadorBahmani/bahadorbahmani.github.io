@@ -5,6 +5,7 @@ layout: publication
 pub_id: physics-informed-multiresolution-neural-operator
 permalink: /publications/physics-informed-multiresolution-neural-operator/
 figure_caption: "The two-step PI-RINO pipeline: irregularly sampled inputs are embedded with learned basis functions, then an MLP is trained against physics-based losses."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Neural operators learn maps between functions, but they usually need large sets of high-fidelity input-output pairs and require every input to be sampled at the same fixed sensor locations. In practice, data often come from simulations on different or adaptive grids, or from experiments with misaligned sensors, which makes such datasets hard to use.

@@ -4,6 +4,7 @@ title: "Effect of volume element geometry on convergence to a representative vol
 layout: publication
 pub_id: volume-element-geometry-rve
 permalink: /publications/volume-element-geometry-rve/
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Simulating fracture accurately requires accounting for small-scale randomness in material properties. Below the size of a representative volume element (RVE), statistical volume elements (SVEs) are used, and their apparent properties are random rather than uniquely defined. Both the constitutive behavior and the strength of SVEs must therefore be described statistically.

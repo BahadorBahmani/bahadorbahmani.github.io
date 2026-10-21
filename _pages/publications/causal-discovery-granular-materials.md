@@ -5,6 +5,7 @@ layout: publication
 pub_id: causal-discovery-granular-materials
 permalink: /publications/causal-discovery-granular-materials/
 figure_caption: "Causal graph discovered for a granular assembly, linking strain, microstructural and topological measures, and stress, with edge inclusion probabilities."
+byline: "This page was summarized by AI (Claude by Anthropic)."
 ---
 
 Machine-learned material laws often lack interpretability: it is hard to tell why a model makes a given prediction. Causal graphs offer a human-readable way to represent how physical quantities influence one another, but discovering them from non-stationary, path-dependent simulation data is difficult.
