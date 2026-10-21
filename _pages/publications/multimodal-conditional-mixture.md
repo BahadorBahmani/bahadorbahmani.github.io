@@ -5,8 +5,10 @@ pub_id: multimodal-conditional-mixture
 permalink: /publications/multimodal-conditional-mixture/
 figure_in_body: true
 caption_align: left
+section_style: numbered
 ---
 
+## Overview
 
 Many physical systems have more than one admissible outcome for the same input, because of bifurcations, regime switching or non-unique mechanisms. Predicting the full conditional distribution of such outcomes is needed, but modern generative models are data-hungry, hard to constrain with physics, and often difficult to interpret.
 
@@ -31,7 +33,7 @@ Prior knowledge of the physical system can be incorporated into MDN training to 
 {% include pub-animation-pair.html left="shock_left.gif" left_width="40%" right="shock_right.gif" right_width="40%" caption="Training of the MDN on shock Hugoniot data, without prior knowledge (left) and with prior knowledge (right)." %}
 
 
-**Key findings**
+## Key findings
 
 - The mixture model matches conditional flow matching at similar model size and training effort, while being simpler to train and sample.
 - Adding physics priors and class-conditioning improves agreement with known physical behavior without extra data or separate models.

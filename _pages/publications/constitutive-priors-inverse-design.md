@@ -52,7 +52,7 @@ When an initial target shape is not available, it is approximated by affine regi
 
 ## Related work
 
-The same idea has since been applied to fracture modeling:
+The idea of the present work has since been applied to fracture modeling:
 
 - [A Differentiable Framework for Inverse Identification of Heterogeneous Cohesive Laws]({{ '/publications/differentiable-heterogeneous-cohesive-laws/' | relative_url }})
 - [Data-Driven Cohesive Zone Modeling within the Generalized Standard Materials Framework]({{ '/publications/data-driven-cohesive-zone-gsm/' | relative_url }})

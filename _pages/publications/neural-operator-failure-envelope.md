@@ -5,7 +5,10 @@ pub_id: neural-operator-failure-envelope
 permalink: /publications/neural-operator-failure-envelope/
 caption_align: left
 figure_in_body: true
+section_style: numbered
 ---
+
+## Overview
 
 Granular micromechanics models predict failure in porous and particulate materials such as concrete, soils, foams and biological tissues. However, the link from microstructure parameters to a macroscopic failure envelope is implicit: each point on the envelope requires a costly nonlinear, non-smooth simulation along a loading path. This cost grows further in inverse problems, where one searches for microstructures that give a target failure response.
 
@@ -28,7 +31,7 @@ The surrogate also serves as a backbone for uncertainty quantification. In an ad
 
 {% include pub-animation-pair.html left="ex3_benchmark_full_mean.png" left_width="40%" right="ex3_benchmark_full_q99.png" right_width="40%" caption="Informativeness of the dataset across dataset sizes, measured by the mean (left) and near-worst, 99% quantile (right) validation errors." %}
 
-**Key findings**
+## Key findings
 
 - The convexity regularization removes non-physical, non-convex artifacts in both forward predictions and inverse identification.
 - Finite differences evaluate the curvature penalty faster than automatic differentiation at the problem sizes of interest.
