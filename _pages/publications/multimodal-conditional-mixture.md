@@ -41,4 +41,3 @@ Prior knowledge of the physical system can be incorporated into MDN training to 
 
 - The mixture model matches conditional flow matching at similar model size and training effort, while being simpler to train and sample.
 - Adding physics priors and class-conditioning improves agreement with known physical behavior without extra data or separate models.
-- The closed-form mixture makes components interpretable and gives conditional means and variances directly, with no Monte Carlo sampling.
