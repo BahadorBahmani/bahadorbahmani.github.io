@@ -239,6 +239,7 @@
       counter-increment: pub-section;
       content: counter(pub-section, decimal-leading-zero);
       color: $link-color;
+      font-size: 2em;
       font-variant: normal;
       font-weight: 700;
       letter-spacing: 0;

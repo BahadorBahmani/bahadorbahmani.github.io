@@ -5,7 +5,10 @@ pub_id: constitutive-priors-inverse-design
 permalink: /publications/constitutive-priors-inverse-design/
 caption_align: left
 figure_in_body: true
+section_style: numbered
 ---
+
+## Overview
 
 Additive manufacturing and multimaterial fabrication make it possible to tune how each part of a structure responds to load. Inverse design methods usually fix a constitutive model and optimize its parameters, but often only stress-strain data are available, without the material or microstructural descriptors that explain differences between them. This work instead relaxes the constitutive model class itself and searches directly over a family of admissible constitutive behaviors learned from data.
 
@@ -41,7 +44,7 @@ When an initial target shape is not available, it is approximated by affine regi
 
 {% include pub-animation.html src="affine_map.gif" width="40%" caption="Affine registration of the cracked shape onto the reference square." %}
 
-**Key findings**
+## Key findings
 
 - The framework recovers spatially varying material distributions that produce prescribed global deformations in several nonlinear elastic network examples.
 - The point cloud objective lets target and design geometries use different discretizations, with no nodal correspondence or interpolation.
