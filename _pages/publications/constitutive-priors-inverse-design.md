@@ -15,7 +15,7 @@ This paper introduces a constitutive prior: a low-dimensional latent representat
 
 ## Results
 
-{% include pub-animation-pair.html left="data.png" left_width="40%" left_offset="1.12%" right="model.png" right_width="38.18%" %}
+{% include pub-animation-pair.html left="data.png" left_width="36%" left_offset="2.39%" right="model.png" right_width="38.18%" caption="Left: stress-strain data. Right: the trained model lifts the data to a smooth surface over a learned latent coordinate z." %}
 
 {% include pub-animation.html src="truss_heart.gif" width="70%" caption="Heart-shaped target: the square truss is expanded toward the heart shape. The right panel shows the nonlinear material response of each element, colored to match the left panel." %}
 
