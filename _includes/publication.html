@@ -17,7 +17,7 @@
   </div>
   <div class="pub-body">
     <div class="pub-title">
-      {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+      {% if pub.page %}<a href="{{ pub.page | relative_url }}">{{ pub.title }}</a>{% elsif pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
     </div>
     <div class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
     <div class="pub-venue">{{ pub.venue }}, {{ pub.venue_year | default: pub.year }}</div>
