@@ -9,7 +9,7 @@ section_style: numbered
 ---
 
 Written by Jinkyo Han with the help of AI (Claude by Anthropic).
-{: style="text-align: right; font-size: 0.8em; color: #7a8288"}
+{: style="text-align: right; font-size: 0.8em; color: #7a8288; font-style: italic"}
 
 ## Overview
 {: style="margin-top: 0.5em"}

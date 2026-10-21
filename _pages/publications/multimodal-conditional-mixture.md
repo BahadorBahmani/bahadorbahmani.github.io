@@ -8,8 +8,8 @@ caption_align: left
 section_style: numbered
 ---
 
-This page was written by Jinkyo Han with the help of AI (Claude by Anthropic).
-{: style="text-align: right; font-size: 0.8em; color: #7a8288"}
+Written by Jinkyo Han with the help of AI (Claude by Anthropic).
+{: style="text-align: right; font-size: 0.8em; color: #7a8288; font-style: italic"}
 
 ## Overview
 {: style="margin-top: 0.5em"}
