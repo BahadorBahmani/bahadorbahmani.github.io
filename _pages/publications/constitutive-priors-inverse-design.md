@@ -8,7 +8,7 @@ figure_in_body: true
 section_style: numbered
 ---
 
-This page was written by Jinkyo Han with the help of AI (Claude by Anthropic).
+Written by Jinkyo Han with the help of AI (Claude by Anthropic).
 {: style="text-align: right; font-size: 0.8em; color: #7a8288"}
 
 ## Overview
