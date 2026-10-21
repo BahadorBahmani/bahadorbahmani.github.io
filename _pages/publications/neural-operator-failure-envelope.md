@@ -8,6 +8,8 @@ figure_in_body: true
 section_style: numbered
 ---
 
+This page was written by Jinkyo Han with the help of AI (Claude by Anthropic).
+
 ## Overview
 
 Granular micromechanics models predict failure in porous and particulate materials such as concrete, soils, foams and biological tissues. However, the link from microstructure parameters to a macroscopic failure envelope is implicit: each point on the envelope requires a costly nonlinear, non-smooth simulation along a loading path. This cost grows further in inverse problems, where one searches for microstructures that give a target failure response.

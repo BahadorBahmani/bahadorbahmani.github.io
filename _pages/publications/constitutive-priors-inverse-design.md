@@ -8,7 +8,10 @@ figure_in_body: true
 section_style: numbered
 ---
 
+This page was written by Jinkyo Han with the help of AI (Claude by Anthropic).
+
 ## Overview
+{: style="margin-top: 0.5em"}
 
 Additive manufacturing and multimaterial fabrication make it possible to tune how each part of a structure responds to load. Inverse design methods usually fix a constitutive model and optimize its parameters, but often only stress-strain data are available, without the material or microstructural descriptors that explain differences between them. This work instead relaxes the constitutive model class itself and searches directly over a family of admissible constitutive behaviors learned from data.
 

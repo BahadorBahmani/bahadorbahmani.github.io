@@ -8,6 +8,8 @@ caption_align: left
 section_style: numbered
 ---
 
+This page was written by Jinkyo Han with the help of AI (Claude by Anthropic).
+
 ## Overview
 
 Many physical systems have more than one admissible outcome for the same input, because of bifurcations, regime switching or non-unique mechanisms. Predicting the full conditional distribution of such outcomes is needed, but modern generative models are data-hungry, hard to constrain with physics, and often difficult to interpret.
