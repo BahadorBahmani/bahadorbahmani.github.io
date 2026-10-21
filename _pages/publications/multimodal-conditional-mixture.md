@@ -8,7 +8,7 @@ caption_align: left
 section_style: numbered
 ---
 
-Written by Jinkyo Han with the help of AI (Claude by Anthropic).
+This page was written by Jinkyo Han with the help of AI (Claude by Anthropic).
 {: style="text-align: right; font-size: 0.8em; color: #7a8288; font-style: italic"}
 
 ## Overview
