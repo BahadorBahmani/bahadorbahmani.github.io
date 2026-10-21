@@ -23,12 +23,32 @@
 #   pdf, arxiv, code
 #            Optional extra links, each shown as a button.
 
+- id: differentiable-heterogeneous-cohesive-laws
+  title: "A Differentiable Framework for Inverse Identification of Heterogeneous Cohesive Laws"
+  authors: "S. Hao, J. Han, and **B. Bahmani**"
+  venue: "Preprint"
+  abbr: "Preprint"
+  year: 2026
+  url: "https://www.researchgate.net/publication/416009195_A_Differentiable_Framework_for_Inverse_Identification_of_Heterogeneous_Cohesive_Laws"
+  image: "/images/publications/differentiable-heterogeneous-cohesive-laws.gif"
+  page: "/publications/differentiable-heterogeneous-cohesive-laws/"
+
+- id: data-driven-cohesive-zone-gsm
+  title: "Data-Driven Cohesive Zone Modeling within the Generalized Standard Materials Framework"
+  authors: "S. Hao, J. Han, and **B. Bahmani**"
+  venue: "arXiv preprint"
+  abbr: "arXiv"
+  year: 2026
+  url: "https://arxiv.org/abs/2609.13629"
+  image: "/images/publications/data-driven-cohesive-zone-gsm.png"
+  page: "/publications/data-driven-cohesive-zone-gsm/"
+
 - id: constitutive-priors-inverse-design
   title: "Constitutive Priors for Inverse Design"
   authors: "J. Han and **B. Bahmani**"
   venue: "Computer Methods in Applied Mechanics and Engineering"
   abbr: "CMAME"
-  year: 2027
+  year: 2026
   url: "https://doi.org/10.1016/j.cma.2026.119345"
   arxiv: "https://arxiv.org/abs/2605.09307"
   image: "/images/publications/constitutive-priors-inverse-design.png"
@@ -68,26 +88,6 @@
   arxiv: "https://arxiv.org/abs/2602.13257"
   image: "/images/publications/multifidelity-bayesian-neural-operator.png"
   page: "/publications/multifidelity-bayesian-neural-operator/"
-
-- id: differentiable-heterogeneous-cohesive-laws
-  title: "A Differentiable Framework for Inverse Identification of Heterogeneous Cohesive Laws"
-  authors: "S. Hao, J. Han, and **B. Bahmani**"
-  venue: "Preprint"
-  abbr: "Preprint"
-  year: 2026
-  url: "https://www.researchgate.net/publication/416009195_A_Differentiable_Framework_for_Inverse_Identification_of_Heterogeneous_Cohesive_Laws"
-  image: "/images/publications/differentiable-heterogeneous-cohesive-laws.gif"
-  page: "/publications/differentiable-heterogeneous-cohesive-laws/"
-
-- id: data-driven-cohesive-zone-gsm
-  title: "Data-Driven Cohesive Zone Modeling within the Generalized Standard Materials Framework"
-  authors: "S. Hao, J. Han, and **B. Bahmani**"
-  venue: "arXiv preprint"
-  abbr: "arXiv"
-  year: 2026
-  url: "https://arxiv.org/abs/2609.13629"
-  image: "/images/publications/data-driven-cohesive-zone-gsm.png"
-  page: "/publications/data-driven-cohesive-zone-gsm/"
 
 - id: neural-operator-failure-envelope
   title: "Neural Operator Representation of Granular Micromechanics-based Failure Envelope"
