@@ -5,7 +5,7 @@ pub_id: differentiable-heterogeneous-cohesive-laws
 permalink: /publications/differentiable-heterogeneous-cohesive-laws/
 figure_in_body: true
 section_style: numbered
-byline: "Edited by Sida Hao with the help of AI (Claude by Anthropic)"
+byline: "This page was written by Sida Hao with the help of AI (Claude by Anthropic)."
 figure_caption: "A double-cantilever beam with a spatially varying cohesive interface: the load drops and recovers as the crack crosses tougher and weaker segments."
 ---
 
