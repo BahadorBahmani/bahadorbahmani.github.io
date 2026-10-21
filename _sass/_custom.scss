@@ -207,3 +207,46 @@
 .pub-animations-title {
   margin-top: 2em;
 }
+
+/*
+   Numbered sections on a publication detail page (`section_style: numbered`):
+   each `##` heading becomes a small-caps label with a two-digit number and a
+   hairline running to the right edge, in the manner of a paper's sections.
+*/
+.pub-summary-numbered {
+  counter-reset: pub-section;
+
+  h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7em;
+    margin: 2.4em 0 1em;
+    padding-bottom: 0;
+    border-bottom: none;
+    color: $text-color;
+    font-size: 1em;
+    font-weight: 600;
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
+    text-transform: lowercase;
+
+    &::before {
+      counter-increment: pub-section;
+      content: counter(pub-section, decimal-leading-zero);
+      color: $link-color;
+      font-variant: normal;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    &::after {
+      content: "";
+      flex: 1;
+      align-self: center;
+      height: 1px;
+      background: #e5e9ec;
+    }
+  }
+
+  h2:first-child { margin-top: 0.5em; }
+}

@@ -8,7 +8,8 @@ layout: single
   the summary. `figure_caption` in the page front matter captions the figure
   (`figure_width`, e.g. "85%", sizes it; `figure_in_body: true` leaves it out
   here so the page body can place it; `caption_align: left` left-aligns the
-  page's captions),
+  page's captions; `section_style: numbered` styles the body's `##` headings
+  as numbered sections),
   and an optional `animations` list (each with `src` and `caption`) is shown
   below the summary under `animations_title` (default "Animations").
 {% endcomment %}
@@ -34,7 +35,7 @@ layout: single
 </figure>
 {% endif %}
 
-<div class="pub-summary">
+<div class="pub-summary{% if page.section_style == "numbered" %} pub-summary-numbered{% endif %}">
 {{ content }}
 </div>
 
