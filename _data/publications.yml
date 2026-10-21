@@ -32,6 +32,7 @@
   url: "https://doi.org/10.1016/j.cma.2026.119345"
   arxiv: "https://arxiv.org/abs/2605.09307"
   image: "/images/publications/constitutive-priors-inverse-design.png"
+  thumbnail: "/images/publications/constitutive-priors-inverse-design/truss_heart.gif"
   page: "/publications/constitutive-priors-inverse-design/"
 
 - id: conformal-quantile-regression

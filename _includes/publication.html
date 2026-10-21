@@ -1,12 +1,15 @@
 {% comment %}
   One publication entry. Expects `pub`, an item from _data/publications.yml.
+  The list shows `thumbnail` when set, otherwise `image` (the detail page
+  figure).
 {% endcomment %}
 {% assign pub = include.pub %}
+{% assign thumb = pub.thumbnail | default: pub.image %}
 <li class="pub">
   <div class="pub-thumb">
     {% if pub.page %}<a href="{{ pub.page | relative_url }}" aria-label="Details: {{ pub.title | escape }}">{% endif %}
-    {% if pub.image %}
-      <img src="{{ pub.image | relative_url }}" alt="{{ pub.title | escape }}" loading="lazy">
+    {% if thumb %}
+      <img src="{{ thumb | relative_url }}" alt="{{ pub.title | escape }}" loading="lazy">
     {% else %}
       <span class="pub-abbr">{{ pub.abbr | default: pub.year }}</span>
     {% endif %}

@@ -1,0 +1,34 @@
+{%- comment -%}
+  Two animations side by side on a publication detail page, with one shared
+  caption. `left` and `right` are file names in /images/publications/<pub_id>/
+  (or full paths), and `left_width` / `right_width` (e.g. "30%") are each one's
+  share of the column, so two animations drawn at the same scale and with the
+  same native height line up at the same height. Optional `left_offset` /
+  `right_offset` (e.g. "3.5%" of the column width) move one down, to line up
+  plot frames that sit at different heights inside their files. The caption
+  spans exactly the row, and follows the page's `caption_align`.
+{%- endcomment -%}
+{%- assign gap = 4 -%}
+{%- assign folder = "/images/publications/" | append: page.pub_id | append: "/" -%}
+{%- if include.left contains "/" -%}
+  {%- assign left_src = include.left -%}
+{%- else -%}
+  {%- assign left_src = folder | append: include.left -%}
+{%- endif -%}
+{%- if include.right contains "/" -%}
+  {%- assign right_src = include.right -%}
+{%- else -%}
+  {%- assign right_src = folder | append: include.right -%}
+{%- endif -%}
+{%- if include.left_width and include.right_width -%}
+  {%- assign row_width = include.left_width | remove: "%" | plus: 0 -%}
+  {%- assign right_width = include.right_width | remove: "%" | plus: 0 -%}
+  {%- assign row_width = row_width | plus: right_width | plus: gap -%}
+{%- endif -%}
+<figure class="pub-figure pub-figure-stacked">
+  <div class="pub-figure-row" style="gap: {{ gap }}%;">
+    <img src="{{ left_src | relative_url }}" alt="" loading="lazy" style="{% if include.left_width %}width: {{ include.left_width }};{% endif %}{% if include.left_offset %} margin-top: {{ include.left_offset }};{% endif %}">
+    <img src="{{ right_src | relative_url }}" alt="" loading="lazy" style="{% if include.right_width %}width: {{ include.right_width }};{% endif %}{% if include.right_offset %} margin-top: {{ include.right_offset }};{% endif %}">
+  </div>
+  {% if include.caption %}<figcaption style="{% if row_width %}width: {{ row_width }}%; margin-left: auto; margin-right: auto;{% endif %}{% if page.caption_align %} text-align: {{ page.caption_align }};{% endif %}">{{ include.caption }}</figcaption>{% endif %}
+</figure>

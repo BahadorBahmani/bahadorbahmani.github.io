@@ -5,7 +5,9 @@ layout: single
 {% comment %}
   Detail page for one paper. The page sets `pub_id`; the citation, links and
   figure come from that entry in _data/publications.yml, and the page body is
-  the summary. `figure_caption` in the page front matter captions the figure,
+  the summary. `figure_caption` in the page front matter captions the figure
+  (`figure_width`, e.g. "85%", sizes it; `caption_align: left` left-aligns the
+  page's captions),
   and an optional `animations` list (each with `src` and `caption`) is shown
   below the summary under `animations_title` (default "Animations").
 {% endcomment %}
@@ -25,9 +27,9 @@ layout: single
 </div>
 
 {% if pub.image %}
-<figure class="pub-figure">
-  <img src="{{ pub.image | relative_url }}" alt="{{ page.figure_caption | default: pub.title | escape }}">
-  {% if page.figure_caption %}<figcaption>{{ page.figure_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
+<figure class="pub-figure{% if page.figure_width %} pub-figure-stacked{% endif %}">
+  <img src="{{ pub.image | relative_url }}" alt="{{ page.figure_caption | default: pub.title | escape }}"{% if page.figure_width %} style="width: {{ page.figure_width }}; max-height: none;"{% endif %}>
+  {% if page.figure_caption %}<figcaption{% if page.figure_width or page.caption_align %} style="{% if page.figure_width %}width: {{ page.figure_width }}; margin-left: auto; margin-right: auto;{% endif %}{% if page.caption_align %} text-align: {{ page.caption_align }};{% endif %}"{% endif %}>{{ page.figure_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
 </figure>
 {% endif %}
 

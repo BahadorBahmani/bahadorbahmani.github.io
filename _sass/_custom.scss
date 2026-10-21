@@ -171,6 +171,25 @@
     margin: 0 auto;
   }
 
+  // The theme lays figures out as a wrapping flex row, which puts a narrow
+  // caption beside a narrow image; the animation includes stack them instead.
+  &.pub-figure-stacked {
+    display: block;
+  }
+
+  // Two animations side by side (_includes/pub-animation-pair.html); their
+  // widths and the gap come from the include, so the row only centres them.
+  .pub-figure-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    img {
+      margin: 0;
+      max-height: none;
+    }
+  }
+
   figcaption {
     margin-top: 0.6em;
     color: #7a828b;

@@ -1,0 +1,17 @@
+{%- comment -%}
+  One animation on a publication detail page, shown where this include sits in
+  the page body. `src` is a file name in /images/publications/<pub_id>/ (or a
+  full path), optional `width` (e.g. "50%") is its share of the column so
+  animations keep the same relative scale on every screen, and `caption` is
+  optional. The caption is as wide as the animation and follows the page's
+  `caption_align`.
+{%- endcomment -%}
+{%- if include.src contains "/" -%}
+  {%- assign anim_src = include.src -%}
+{%- else -%}
+  {%- assign anim_src = "/images/publications/" | append: page.pub_id | append: "/" | append: include.src -%}
+{%- endif -%}
+<figure class="pub-figure pub-figure-stacked">
+  <img src="{{ anim_src | relative_url }}" alt="{{ include.caption | escape }}" loading="lazy"{% if include.width %} style="width: {{ include.width }}; max-height: none;"{% endif %}>
+  {% if include.caption %}<figcaption style="{% if include.width %}width: {{ include.width }}; margin-left: auto; margin-right: auto;{% endif %}{% if page.caption_align %} text-align: {{ page.caption_align }};{% endif %}">{{ include.caption }}</figcaption>{% endif %}
+</figure>
